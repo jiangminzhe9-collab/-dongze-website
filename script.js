@@ -8,7 +8,7 @@ const characters = [
     "en": "Paper folds, expressive eyes and streetwear define the original design language of DONGZE paperbag characters."
   },
   {
-    "src": "/assets/paperbag-outsider.png",
+    "src": "/assets/paperbag-outsider.webp",
     "name": "Paperbag Outsider",
     "nameZh": "紙袋怪客",
     "group": "paper",
