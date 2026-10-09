@@ -1,6 +1,6 @@
 const characters = [
   {
-    "src": "/assets/paperbag.webp",
+    "src": "/assets/paperbag.png",
     "name": "Paperbag Original",
     "nameZh": "紙袋原創",
     "group": "paper",
@@ -8,7 +8,7 @@ const characters = [
     "en": "Paper folds, expressive eyes and streetwear define the original design language of DONGZE paperbag characters."
   },
   {
-    "src": "/assets/paperbag-outsider.webp",
+    "src": "/assets/paperbag-outsider.png",
     "name": "Paperbag Outsider",
     "nameZh": "紙袋怪客",
     "group": "paper",
@@ -16,7 +16,7 @@ const characters = [
     "en": "Paperbag heads, tattoos and streetwear bring a playful outsider personality to life. The turnaround sheet shows the character from four angles."
   },
   {
-    "src": "/assets/budget.webp",
+    "src": "/assets/budget.png",
     "name": "Office Heroes",
     "nameZh": "Office Heroes",
     "group": "office",
@@ -24,7 +24,7 @@ const characters = [
     "en": "Office supplies become weapons in a world of workplace dark humor. Budget Freezer is shown as a representative character."
   },
   {
-    "src": "/assets/dongze-cat.webp",
+    "src": "/assets/dongze-cat.png",
     "name": "Ze · DONGZE Cat",
     "nameZh": "阿澤｜東澤紙袋貓",
     "group": "cats",
@@ -39,7 +39,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/garden-cat.webp",
+    "src": "/assets/garden-cat.png",
     "name": "Sprout · Garden Cat",
     "nameZh": "芽芽｜花園貓",
     "group": "cats",
@@ -54,7 +54,7 @@ const characters = [
     "sex": "female"
   },
   {
-    "src": "/assets/ramen-cat.webp",
+    "src": "/assets/ramen-cat.png",
     "name": "Maru · Ramen Cat",
     "nameZh": "阿丸｜拉麵貓",
     "group": "cats",
@@ -69,7 +69,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/skate-cat.webp",
+    "src": "/assets/skate-cat.png",
     "name": "Ollie · Skate Cat",
     "nameZh": "阿溜｜滑板貓",
     "group": "cats",
@@ -84,7 +84,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/chef-cat.webp",
+    "src": "/assets/chef-cat.png",
     "name": "Butter · Chef Cat",
     "nameZh": "奶油｜主廚貓",
     "group": "cats",
@@ -99,7 +99,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/painter-cat.webp",
+    "src": "/assets/painter-cat.png",
     "name": "Dottie · Painter Cat",
     "nameZh": "點點｜畫家貓",
     "group": "cats",
@@ -114,7 +114,7 @@ const characters = [
     "sex": "female"
   },
   {
-    "src": "/assets/pizza-cat.webp",
+    "src": "/assets/pizza-cat.png",
     "name": "Peppo · Pizza Cat",
     "nameZh": "佩佩｜披薩貓",
     "group": "cats",
@@ -129,7 +129,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/aria-cat.webp",
+    "src": "/assets/aria-cat.png",
     "name": "Aria · Ragdoll Cat",
     "nameZh": "雅雅｜布偶貓",
     "group": "cats",
