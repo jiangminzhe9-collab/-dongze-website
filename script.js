@@ -24,7 +24,7 @@ const characters = [
     "en": "Office supplies become weapons in a world of workplace dark humor. Budget Freezer is shown as a representative character."
   },
   {
-    "src": "/assets/dongze-cat-v2.webp",
+    "src": "/assets/dongze-cat.webp",
     "name": "Ze · DONGZE Cat",
     "nameZh": "阿澤｜東澤紙袋貓",
     "group": "cats",
@@ -39,7 +39,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/garden-cat-v2.webp",
+    "src": "/assets/garden-cat.webp",
     "name": "Sprout · Garden Cat",
     "nameZh": "芽芽｜花園貓",
     "group": "cats",
@@ -54,7 +54,7 @@ const characters = [
     "sex": "female"
   },
   {
-    "src": "/assets/ramen-cat-v2.webp",
+    "src": "/assets/ramen-cat.webp",
     "name": "Maru · Ramen Cat",
     "nameZh": "阿丸｜拉麵貓",
     "group": "cats",
@@ -69,7 +69,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/skate-cat-v2.webp",
+    "src": "/assets/skate-cat.webp",
     "name": "Ollie · Skate Cat",
     "nameZh": "阿溜｜滑板貓",
     "group": "cats",
@@ -84,7 +84,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/chef-cat-v2.webp",
+    "src": "/assets/chef-cat.webp",
     "name": "Butter · Chef Cat",
     "nameZh": "奶油｜主廚貓",
     "group": "cats",
@@ -99,7 +99,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/painter-cat-v2.webp",
+    "src": "/assets/painter-cat.webp",
     "name": "Dottie · Painter Cat",
     "nameZh": "點點｜畫家貓",
     "group": "cats",
@@ -114,7 +114,7 @@ const characters = [
     "sex": "female"
   },
   {
-    "src": "/assets/pizza-cat-v2.webp",
+    "src": "/assets/pizza-cat.webp",
     "name": "Peppo · Pizza Cat",
     "nameZh": "佩佩｜披薩貓",
     "group": "cats",
@@ -129,7 +129,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/aria-cat-v2.webp",
+    "src": "/assets/aria-cat.webp",
     "name": "Aria · Ragdoll Cat",
     "nameZh": "雅雅｜布偶貓",
     "group": "cats",
