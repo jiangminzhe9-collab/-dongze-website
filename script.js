@@ -114,7 +114,7 @@ const characters = [
     "sex": "female"
   },
   {
-    "src": "/assets/227798EC-AB0B-4D74-859C-A4FF0A03A3FE.webp",
+    "src": "/assets/pizza-cat.webp",
     "name": "Peppo · Pizza Cat",
     "nameZh": "佩佩｜披薩貓",
     "group": "cats",
