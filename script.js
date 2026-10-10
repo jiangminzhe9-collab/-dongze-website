@@ -39,7 +39,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/garden-cat.png",
+    "src": "/garden-cat.png",
     "name": "Sprout · Garden Cat",
     "nameZh": "芽芽｜花園貓",
     "group": "cats",
