@@ -18,7 +18,7 @@ const characters = [
   {
     "src": "/assets/budget.webp",
     "name": "Office Heroes",
-    "nameZh": "Office Heroes",
+    "nameZh": "辦公室社畜",
     "group": "office",
     "zh": "辦公用品武器化與社畜黑色幽默，串聯加班、預算、全勤等職場角色。本圖為 Budget Freezer 系列代表作品。",
     "en": "Office supplies become weapons in a world of workplace dark humor. Budget Freezer is shown as a representative character."
@@ -245,7 +245,7 @@ function updateCaption() {
   }
 
   document.querySelector("#dialog-caption").textContent =
-    item.name + " · © DONGZE";
+    (english ? item.name : item.nameZh) + " · © DONGZE";
 
   const label = english ? item.name : item.nameZh;
   document.querySelector("#gallery-canvas")
@@ -418,4 +418,5 @@ document.querySelectorAll("[data-copy-contact]").forEach(button => {
     }
   });
 });
+
 
