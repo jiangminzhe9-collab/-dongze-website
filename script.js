@@ -24,7 +24,7 @@ const characters = [
     "en": "Office supplies become weapons in a world of workplace dark humor. Budget Freezer is shown as a representative character."
   },
   {
-    "src": "/assets/dongze-cat-v2.webp",
+    "src": "/assets/dongze-cat.png",
     "name": "Ze · DONGZE Cat",
     "nameZh": "阿澤｜東澤紙袋貓",
     "group": "cats",
@@ -39,7 +39,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/garden-cat-v2.webp",
+    "src": "/garden-cat.png",
     "name": "Sprout · Garden Cat",
     "nameZh": "芽芽｜花園貓",
     "group": "cats",
@@ -54,7 +54,7 @@ const characters = [
     "sex": "female"
   },
   {
-    "src": "/assets/ramen-cat-v2.webp",
+    "src": "/assets/ramen-cat.png",
     "name": "Maru · Ramen Cat",
     "nameZh": "阿丸｜拉麵貓",
     "group": "cats",
@@ -69,7 +69,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/skate-cat-v2.webp",
+    "src": "/assets/skate-cat.png",
     "name": "Ollie · Skate Cat",
     "nameZh": "阿溜｜滑板貓",
     "group": "cats",
@@ -84,7 +84,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/chef-cat-v2.webp",
+    "src": "/assets/chef-cat.png",
     "name": "Butter · Chef Cat",
     "nameZh": "奶油｜主廚貓",
     "group": "cats",
@@ -99,7 +99,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/painter-cat-v2.webp",
+    "src": "/assets/painter-cat.png",
     "name": "Dottie · Painter Cat",
     "nameZh": "點點｜畫家貓",
     "group": "cats",
@@ -114,7 +114,7 @@ const characters = [
     "sex": "female"
   },
   {
-    "src": "/assets/pizza-cat-v2.webp",
+    "src": "/assets/pizza-cat.png",
     "name": "Peppo · Pizza Cat",
     "nameZh": "佩佩｜披薩貓",
     "group": "cats",
@@ -129,7 +129,7 @@ const characters = [
     "sex": "male"
   },
   {
-    "src": "/assets/aria-cat-v2.webp",
+    "src": "/assets/aria-cat.png",
     "name": "Aria · Ragdoll Cat",
     "nameZh": "雅雅｜布偶貓",
     "group": "cats",
@@ -402,3 +402,20 @@ document.querySelectorAll(".protected-art").forEach(async canvas => {
 });
 
 selectCharacter(3);
+
+// Provide contact details even when no mail or calling app is configured.
+document.querySelectorAll("[data-copy-contact]").forEach(button => {
+  button.addEventListener("click", async () => {
+    const value = button.dataset.copyContact;
+    const status = document.querySelector("#contact-copy-status");
+    try {
+      await navigator.clipboard.writeText(value);
+      status.textContent = english ? "Copied: " + value : "已複製：" + value;
+    } catch {
+      status.textContent = english
+        ? "Please copy this contact detail: " + value
+        : "請手動複製聯絡資料：" + value;
+    }
+  });
+});
+
