@@ -1,6 +1,6 @@
 const characters = [
   {
-    "src": "/assets/paperbag.png",
+    "src": "/assets/paperbag.webp",
     "name": "Paperbag Original",
     "nameZh": "紙袋原創",
     "group": "paper",
@@ -8,7 +8,7 @@ const characters = [
     "en": "Paper folds, expressive eyes and streetwear define the original design language of DONGZE paperbag characters."
   },
   {
-    "src": "/assets/paperbag-outsider.png",
+    "src": "/assets/paperbag-outsider.webp",
     "name": "Paperbag Outsider",
     "nameZh": "紙袋怪客",
     "group": "paper",
@@ -16,7 +16,7 @@ const characters = [
     "en": "Paperbag heads, tattoos and streetwear bring a playful outsider personality to life. The turnaround sheet shows the character from four angles."
   },
   {
-    "src": "/assets/budget.png",
+    "src": "/assets/budget.webp",
     "name": "Office Heroes",
     "nameZh": "Office Heroes",
     "group": "office",
@@ -24,7 +24,7 @@ const characters = [
     "en": "Office supplies become weapons in a world of workplace dark humor. Budget Freezer is shown as a representative character."
   },
   {
-    "src": "/assets/dongze-cat.png",
+    "src": "/assets/dongze-cat.webp",
     "name": "Ze · DONGZE Cat",
     "nameZh": "阿澤｜東澤紙袋貓",
     "group": "cats",
