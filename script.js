@@ -16,12 +16,139 @@ const characters = [
     "en": "Paperbag heads, tattoos and streetwear bring a playful outsider personality to life. The turnaround sheet shows the character from four angles."
   },
   {
-    "src": "/assets/budget.webp",
-    "name": "Office Heroes",
-    "nameZh": "辦公室社畜",
+    "src": "/assets/office-stamp-refusal.webp",
+    "name": "The Stamp Refuser",
+    "nameZh": "拒絕印章職員",
     "group": "office",
-    "zh": "辦公用品武器化與社畜黑色幽默，串聯加班、預算、全勤等職場角色。本圖為 Budget Freezer 系列代表作品。",
-    "en": "Office supplies become weapons in a world of workplace dark humor. Budget Freezer is shown as a representative character."
+    "roleZh": "替同事擋下最後一份文件",
+    "roleEn": "The colleague who blocks one last request",
+    "zh": "拒絕章握在手裡，桌上卻還有排不完的文件。看起來疲憊，仍替每個人守住準時下班的最後一道防線。",
+    "en": "With a refusal stamp in hand and another stack of paperwork waiting, this tired colleague still guards everyone’s chance to leave on time.",
+    "flawZh": "每次說「最後一件」，最後都變成最後十件。",
+    "flawEn": "Every “last thing” somehow becomes ten more.",
+    "quoteZh": "今天的最後一件，明天再說。",
+    "quoteEn": "The last thing today can wait until tomorrow.",
+    "sex": "worker"
+  },
+  {
+    "src": "/assets/office-accountant.webp",
+    "name": "The Burnout Accountant",
+    "nameZh": "心累會計",
+    "group": "office",
+    "roleZh": "把每一筆支出都算得清清楚楚",
+    "roleEn": "The accountant who counts every cost",
+    "zh": "FINANCE 識別牌掛在灰色西裝上，疲憊藏在紙袋後面。報表能對平，精神卻還欠公司幾個小時。",
+    "en": "A FINANCE badge sits on a gray suit. The numbers always add up; the accountant’s remaining energy does not.",
+    "flawZh": "連休息時間也想列入成本分析。",
+    "flawEn": "Even breaks become a line item to analyze.",
+    "quoteZh": "這筆加班，記得報支。",
+    "quoteEn": "Remember to expense this overtime.",
+    "sex": "worker"
+  },
+  {
+    "src": "/assets/office-after-hours.webp",
+    "name": "The After-hours Survivor",
+    "nameZh": "下班失敗的社畜",
+    "group": "office",
+    "roleZh": "努力離開辦公室的生存者",
+    "roleEn": "The survivor still trying to leave work",
+    "zh": "一整天的待辦像紙袋一樣罩在頭上。明明收拾好了，卻又被訊息叫回座位。",
+    "en": "The day’s to-do list hangs over this worker like a paper bag. The desk is packed up—until another message arrives.",
+    "flawZh": "看到未讀通知，就忍不住再打開電腦。",
+    "flawEn": "One unread notification is enough to reopen the laptop.",
+    "quoteZh": "我真的要下班了。",
+    "quoteEn": "I really am leaving now.",
+    "sex": "worker"
+  },
+  {
+    "src": "/assets/office-commute-home.webp",
+    "name": "The Commute Home",
+    "nameZh": "下班通勤人",
+    "group": "office",
+    "roleZh": "揹著一天工作回家的上班族",
+    "roleEn": "The worker carrying the day home",
+    "zh": "整理好公事包，終於踏上回家的路。肩膀還記得會議，腳步已經開始想念晚餐。",
+    "en": "The work bag is packed and the trip home has begun. The shoulders remember the meetings; the feet are thinking about dinner.",
+    "flawZh": "到家後還會先回工作群組訊息。",
+    "flawEn": "Still replies to the work chat after getting home.",
+    "quoteZh": "下班路上，先不想明天。",
+    "quoteEn": "On the way home, tomorrow can wait.",
+    "sex": "worker"
+  },
+  {
+    "src": "/assets/office-drink-runner.webp",
+    "name": "The Eight-cup Runner",
+    "nameZh": "八杯飲料菜鳥",
+    "group": "office",
+    "roleZh": "抱著全組飲料闖關的新人",
+    "roleEn": "The rookie carrying drinks for the whole team",
+    "zh": "新人第一個任務不是開會，而是穩穩抱住八杯飲料。每一步都得小心，否則下午茶就要變成地板清潔。",
+    "en": "The rookie’s first assignment is not a meeting, but carrying eight drinks without spilling them. One wrong step turns break time into cleanup duty.",
+    "flawZh": "記得每個人的甜度，常忘了自己的那杯。",
+    "flawEn": "Remembers everyone’s sugar level, forgets their own drink.",
+    "quoteZh": "大家的都齊了，我的呢？",
+    "quoteEn": "Everyone’s drink is here. Where’s mine?",
+    "sex": "worker"
+  },
+  {
+    "src": "/assets/office-coffee-break.webp",
+    "name": "The Coffee-fueled Colleague",
+    "nameZh": "咖啡續命員工",
+    "group": "office",
+    "roleZh": "靠一杯咖啡重新開機",
+    "roleEn": "The colleague rebooted by coffee",
+    "zh": "咖啡是開機鍵，也是午后會議的防護罩。杯子握得很緊，表示今天還能再撐一下。",
+    "en": "Coffee is the power button and the afternoon-meeting shield. A firm grip on the cup means there is enough energy for one more task.",
+    "flawZh": "常常忘記咖啡已經放涼，還是照喝。",
+    "flawEn": "Forgets the coffee has gone cold, then drinks it anyway.",
+    "quoteZh": "先喝一口，再回信。",
+    "quoteEn": "One sip, then one more email.",
+    "sex": "worker"
+  },
+  {
+    "src": "/assets/office-night-guard.webp",
+    "name": "The 3 AM Paperbag Guard",
+    "nameZh": "凌晨三點紙袋保全",
+    "group": "office",
+    "roleZh": "守住深夜辦公室的夜班保全",
+    "roleEn": "The guard on the office’s late shift",
+    "zh": "凌晨三點，走廊只剩巡邏腳步聲。這位保全守著空蕩蕩的辦公室，也替夜歸的人留一盞燈。",
+    "en": "At three in the morning, only patrol steps echo through the hall. The guard watches over the empty office and leaves a light on for late arrivals.",
+    "flawZh": "巡邏時會順手把大家沒收好的桌面整理好。",
+    "flawEn": "Tidies everyone’s desk while making rounds.",
+    "quoteZh": "燈還亮著，慢慢走。",
+    "quoteEn": "The lights are on. Take your time.",
+    "sex": "worker"
+  },
+  {
+    "src": "/assets/office-night-commute.webp",
+    "name": "The Night-shift Commuter",
+    "nameZh": "夜班通勤紙袋人",
+    "group": "office",
+    "roleZh": "搭上城市最後一班車的夜班人",
+    "roleEn": "The night worker catching the last ride",
+    "zh": "穿梭在深夜車站與回家路上的通勤者。城市慢慢安靜下來，手上的小小 DZ 標記還亮著。",
+    "en": "A commuter moving between the late-night station and home. As the city quiets down, a small DZ mark stays bright.",
+    "flawZh": "搭車時太累，常坐過站。",
+    "flawEn": "Too tired on the ride home and often misses the stop.",
+    "quoteZh": "再一站，就到家了。",
+    "quoteEn": "One more stop and I’m home.",
+    "sex": "worker"
+  },
+  {
+    "src": "/assets/office-delivery.webp",
+    "name": "The Tired Delivery Worker",
+    "nameZh": "疲憊紙袋外送員",
+    "group": "office",
+    "roleZh": "把最後一份餐點送到目的地",
+    "roleEn": "The courier bringing one last order",
+    "zh": "外送袋比笑容更有精神，但每份餐點都準時送達。停下來喘口氣，再把路上的夜色走完。",
+    "en": "The delivery bag looks more awake than the courier, but every meal arrives on time. A quick breath, then one more stretch of night road.",
+    "flawZh": "常為了不灑出湯汁，連自己的晚餐都忘了吃。",
+    "flawEn": "So careful not to spill a delivery that they forget to eat dinner.",
+    "quoteZh": "最後一單，送完回家。",
+    "quoteEn": "One last order, then home.",
+    "sex": "worker"
   },
   {
     "src": "/assets/dongze-cat.png",
@@ -146,7 +273,7 @@ const characters = [
 ];
 
 let english = false;
-let current = 3;
+let current = 11;
 let selectionVersion = 0;
 const cache = new Map();
 
@@ -238,8 +365,8 @@ function updateCaption() {
   profile.hidden = !item.roleZh;
   if (item.roleZh) {
     document.querySelector("#character-gender").textContent = english
-      ? (item.sex === "female" ? "Female" : "Male")
-      : (item.sex === "female" ? "女生" : "男生");
+      ? (item.sex === "female" ? "Female" : item.sex === "male" ? "Male" : "Office worker")
+      : (item.sex === "female" ? "女生" : item.sex === "male" ? "男生" : "職場角色");
     document.querySelector("#character-flaw").textContent = item[english ? "flawEn" : "flawZh"];
     document.querySelector("#character-quote").textContent = item[english ? "quoteEn" : "quoteZh"];
   }
@@ -401,7 +528,7 @@ document.querySelectorAll(".protected-art").forEach(async canvas => {
   }
 });
 
-selectCharacter(3);
+selectCharacter(11);
 
 // Provide contact details even when no mail or calling app is configured.
 document.querySelectorAll("[data-copy-contact]").forEach(button => {
@@ -418,5 +545,3 @@ document.querySelectorAll("[data-copy-contact]").forEach(button => {
     }
   });
 });
-
-
