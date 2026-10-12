@@ -61,7 +61,7 @@ const characters = [
     "sex": "worker"
   },
   {
-    "src": "/assets/office-caffeine-golem.webp",
+    "src": "/assets/office-caffeine-golem-v2.webp",
     "name": "Caffeine Golem",
     "nameZh": "咖啡魔像",
     "group": "office",
@@ -163,6 +163,21 @@ const characters = [
     "flawEn": "There is always one more document in the briefcase.",
     "quoteZh": "先完成這一關，再下班。",
     "quoteEn": "One more level, then clock out.",
+    "sex": "worker"
+  },
+  {
+    "src": "/assets/office-slack-stryker.webp",
+    "name": "Slack Stryker",
+    "nameZh": "摸魚打擊手",
+    "group": "office",
+    "roleZh": "同一個期限，不同的一天",
+    "roleEn": "Same deadline, a different day",
+    "zh": "AFK 貼紙、鉛筆與膠帶是他的辦公室裝備；三階段造型從飲料跑腿一路升級成最終型態。",
+    "en": "An AFK sticker, pencil and packing tape make up this office kit, evolving from coffee runner to final form.",
+    "flawZh": "明明只是去拿咖啡，回來時手上多了三件差事。",
+    "flawEn": "Leaves for coffee and comes back with three new tasks.",
+    "quoteZh": "工作少一點，事情照樣做好。",
+    "quoteEn": "Work less. Do more.",
     "sex": "worker"
   },
   {
