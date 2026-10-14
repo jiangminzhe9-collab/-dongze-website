@@ -8,3 +8,7 @@
 .comic-reader .comic-artwork{padding:8px}.comic-reader [hidden]{display:none}
 .comic-language-note{font-size:12px;line-height:1.7;color:#766958;margin-top:16px}
 @media(max-width:760px){.comic-section{grid-template-columns:1fr}.comic-section .section-heading{width:100%;max-width:none}.comic-menu{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;text-align:left}.comic-menu a{font-size:13px;padding:12px}.comic-reader .comic-feature{width:100%}.comic-reader .comic-artwork{padding:4px}.comic-reader .comic-feature figcaption{flex-wrap:wrap}}
+
+/* Comic episode links must not inherit the header's mobile hiding rule. */
+.comic-menu{margin-left:0}
+.comic-menu a:nth-child(n){display:block}
