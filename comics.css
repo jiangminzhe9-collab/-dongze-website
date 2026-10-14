@@ -12,3 +12,15 @@
 /* Comic episode links must not inherit the header's mobile hiding rule. */
 .comic-menu{margin-left:0}
 .comic-menu a:nth-child(n){display:block}
+
+.comic-latest{background:#f5f3ee;border-top:1px solid #d2d0ca;scroll-margin-top:20px}
+.comic-latest .section-heading{align-items:center}.comic-latest .eyebrow{color:#9e321d;margin-bottom:14px}
+.comic-all{display:inline-block;flex-shrink:0;padding:14px 18px;border:1px solid #1e1e1e;border-radius:4px;font-size:14px;font-weight:700}
+.comic-all:hover{background:#1e1e1e;color:#fff}.comic-latest-intro{font-size:16px;line-height:1.8;color:#666;margin:0 0 28px}
+.comic-latest-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.comic-story-card{display:block;min-width:0;background:#fff;border:1px solid #d2d0ca;transition:transform .2s}
+.comic-story-card:hover{transform:translateY(-3px)}.comic-story-card>img{display:block;width:100%;height:auto;object-fit:contain}
+.comic-story-card>div{padding:20px}.comic-series-tag{font-size:11px;letter-spacing:.03em;color:#9e321d}.comic-story-card h3{font-size:21px;line-height:1.5;margin:12px 0 16px}.comic-read{font-size:13px;border-bottom:1px solid;padding-bottom:4px}
+@media(max-width:760px){.comic-latest .section-heading{display:block}.comic-all{margin-top:20px}.comic-latest-grid{grid-template-columns:1fr;gap:24px}.comic-story-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center}.comic-story-card>div{padding:16px}.comic-story-card h3{font-size:18px}.comic-latest-intro{font-size:14px}.comic-series-tag{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.comic-story-card{transition:none}.comic-story-card:hover{transform:none}}
+
