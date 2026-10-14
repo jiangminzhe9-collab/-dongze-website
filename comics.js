@@ -29,3 +29,4 @@
   select(pages.some(page => '#' + page.id === location.hash) ? location.hash.slice(1) : 'comic-deadline-intercept');
 })();
 
+// Artwork revision 20261014-04: selected factory worker After-Work Mode original.
