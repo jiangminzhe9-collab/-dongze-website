@@ -1,0 +1,774 @@
+{
+  "series": [
+    {
+      "name": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "辦公室戰士",
+      "prefix": "HERO",
+      "color": "#EAF2FB",
+      "ink": "#315B82"
+    },
+    {
+      "name": "Office Workers",
+      "slug": "office-workers",
+      "zh": "辦公室社畜",
+      "prefix": "WORK",
+      "color": "#FFF1E3",
+      "ink": "#875B32"
+    },
+    {
+      "name": "Everyday Craftspeople",
+      "slug": "everyday-craftspeople",
+      "zh": "生活職人",
+      "prefix": "CRAFT",
+      "color": "#EAF4EA",
+      "ink": "#426A4B"
+    },
+    {
+      "name": "Paperbag Cats",
+      "slug": "paperbag-cats",
+      "zh": "紙袋貓",
+      "prefix": "PBC",
+      "color": "#F2ECFA",
+      "ink": "#6B508B"
+    },
+    {
+      "name": "Taike Series",
+      "slug": "taike",
+      "zh": "台客系列",
+      "prefix": "TAIKE",
+      "color": "#FBECEE",
+      "ink": "#8C4E59"
+    }
+  ],
+  "characters": [
+    {
+      "code": "HERO-001",
+      "series": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "加班隊長",
+      "en": "Captain Overtime",
+      "order": 1,
+      "variants": [
+        {
+          "code": "HERO-001-A",
+          "zh": "加班隊長・外勤型態",
+          "en": "Captain Overtime · Field Gear",
+          "image": "/assets/office-captain-overtime.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-11"
+        },
+        {
+          "code": "HERO-001-B",
+          "zh": "加班隊長・紅標型態",
+          "en": "Captain Overtime · Red Tag Armor",
+          "image": "/assets/office-captain-overtime-sale.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-10"
+        }
+      ]
+    },
+    {
+      "code": "HERO-002",
+      "series": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "夜班騎士",
+      "en": "Nightshift Knight",
+      "order": 2,
+      "variants": [
+        {
+          "code": "HERO-002",
+          "zh": "夜班騎士",
+          "en": "Nightshift Knight",
+          "image": "/assets/office-nightshift-knight.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-8"
+        }
+      ]
+    },
+    {
+      "code": "HERO-003",
+      "series": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "摸魚打擊手",
+      "en": "Slack Stryker",
+      "order": 3,
+      "variants": [
+        {
+          "code": "HERO-003",
+          "zh": "摸魚打擊手",
+          "en": "Slack Stryker",
+          "image": "/assets/office-slack-stryker.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-12"
+        }
+      ]
+    },
+    {
+      "code": "HERO-004",
+      "series": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "咖啡魔像",
+      "en": "Caffeine Golem",
+      "order": 4,
+      "variants": [
+        {
+          "code": "HERO-004-A",
+          "zh": "咖啡魔像・咖啡核心型態",
+          "en": "Caffeine Golem · Coffee Core Form",
+          "image": "/assets/office-caffeine-golem.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-4"
+        },
+        {
+          "code": "HERO-004-B",
+          "zh": "咖啡魔像・超頻型態",
+          "en": "Caffeine Golem · Overclock Form",
+          "image": "/assets/office-caffeine-golem-v2.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-5"
+        }
+      ]
+    },
+    {
+      "code": "HERO-005",
+      "series": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "印章霸王",
+      "en": "Seal Overlord",
+      "order": 5,
+      "variants": [
+        {
+          "code": "HERO-005",
+          "zh": "印章霸王",
+          "en": "Seal Overlord",
+          "image": "/assets/office-seal-overlord.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-1"
+        }
+      ]
+    },
+    {
+      "code": "HERO-006",
+      "series": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "被犧牲的實習生",
+      "en": "The Intern Sacrificed",
+      "order": 6,
+      "variants": [
+        {
+          "code": "HERO-006",
+          "zh": "被犧牲的實習生",
+          "en": "The Intern Sacrificed",
+          "image": "/assets/office-intern-sacrificed.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-6"
+        }
+      ]
+    },
+    {
+      "code": "HERO-007",
+      "series": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "幽靈業務",
+      "en": "Ghost Sales",
+      "order": 7,
+      "variants": [
+        {
+          "code": "HERO-007",
+          "zh": "幽靈業務",
+          "en": "Ghost Sales",
+          "image": "/assets/office-ghost-sales.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-3"
+        }
+      ]
+    },
+    {
+      "code": "HERO-008",
+      "series": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "預算凍結者",
+      "en": "Budget Freezer",
+      "order": 8,
+      "variants": [
+        {
+          "code": "HERO-008",
+          "zh": "預算凍結者",
+          "en": "Budget Freezer",
+          "image": "/assets/office-budget-freezer.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-2"
+        }
+      ]
+    },
+    {
+      "code": "HERO-009",
+      "series": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "外送突擊手",
+      "en": "Delivery Striker",
+      "order": 9,
+      "variants": [
+        {
+          "code": "HERO-009",
+          "zh": "外送突擊手",
+          "en": "Delivery Striker",
+          "image": "/assets/office-delivery-striker.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-7"
+        }
+      ]
+    },
+    {
+      "code": "HERO-010",
+      "series": "Office Heroes",
+      "slug": "office-warriors",
+      "zh": "夜巡守衛",
+      "en": "Night Watch Guardian",
+      "order": 10,
+      "variants": [
+        {
+          "code": "HERO-010",
+          "zh": "夜巡守衛",
+          "en": "Night Watch Guardian",
+          "image": "/assets/office-night-watch-guardian.webp",
+          "page": "https://dongze.win/collections/office-warriors/#character-9"
+        }
+      ]
+    },
+    {
+      "code": "WORK-001",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "咖啡夥伴",
+      "en": "Coffee Companion",
+      "order": 1,
+      "variants": [
+        {
+          "code": "WORK-001",
+          "zh": "咖啡夥伴",
+          "en": "Coffee Companion",
+          "image": "/assets/office-coffee-positive.webp",
+          "page": "https://dongze.win/collections/office-workers/#character-1"
+        }
+      ]
+    },
+    {
+      "code": "WORK-002",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "精算會計",
+      "en": "Sharp Accountant",
+      "order": 2,
+      "variants": [
+        {
+          "code": "WORK-002",
+          "zh": "精算會計",
+          "en": "Sharp Accountant",
+          "image": "/assets/office-accountant-positive.webp",
+          "page": "https://dongze.win/collections/office-workers/#character-2"
+        }
+      ]
+    },
+    {
+      "code": "WORK-003",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "活力實習生",
+      "en": "Energetic Intern",
+      "order": 3,
+      "variants": [
+        {
+          "code": "WORK-003",
+          "zh": "活力實習生",
+          "en": "Energetic Intern",
+          "image": "/assets/office-intern-positive.webp",
+          "page": "https://dongze.win/collections/office-workers/#character-3"
+        }
+      ]
+    },
+    {
+      "code": "WORK-004",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "外送同事",
+      "en": "Delivery Worker",
+      "order": 4,
+      "variants": [
+        {
+          "code": "WORK-004",
+          "zh": "外送同事",
+          "en": "Delivery Worker",
+          "image": "/assets/office-delivery-positive.webp",
+          "page": "https://dongze.win/collections/office-workers/#character-4"
+        }
+      ]
+    },
+    {
+      "code": "WORK-005",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "夜班保全",
+      "en": "Night Guard",
+      "order": 5,
+      "variants": [
+        {
+          "code": "WORK-005",
+          "zh": "夜班保全",
+          "en": "Night Guard",
+          "image": "/assets/office-nightwatch-positive-v2.webp",
+          "page": "https://dongze.win/collections/office-workers/#character-5"
+        }
+      ]
+    },
+    {
+      "code": "WORK-006",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "下班時刻",
+      "en": "After Hours",
+      "order": 6,
+      "variants": [
+        {
+          "code": "WORK-006",
+          "zh": "下班時刻",
+          "en": "After Hours",
+          "image": "/assets/office-afterhours-positive.webp",
+          "page": "https://dongze.win/collections/office-workers/#character-6"
+        }
+      ]
+    },
+    {
+      "code": "WORK-007",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "回家路上",
+      "en": "Homeward Bound",
+      "order": 7,
+      "variants": [
+        {
+          "code": "WORK-007",
+          "zh": "回家路上",
+          "en": "Homeward Bound",
+          "image": "/assets/office-home-positive.webp",
+          "page": "https://dongze.win/collections/office-workers/#character-7"
+        }
+      ]
+    },
+    {
+      "code": "WORK-008",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "夜歸同事",
+      "en": "Late Commuter",
+      "order": 8,
+      "variants": [
+        {
+          "code": "WORK-008",
+          "zh": "夜歸同事",
+          "en": "Late Commuter",
+          "image": "/assets/office-night-positive.webp",
+          "page": "https://dongze.win/collections/office-workers/#character-8"
+        }
+      ]
+    },
+    {
+      "code": "WORK-009",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "助理工程師",
+      "en": "Assistant Engineer · Female",
+      "order": 9,
+      "variants": [
+        {
+          "code": "WORK-009",
+          "zh": "助理工程師・女性",
+          "en": "Assistant Engineer · Female",
+          "image": "/assets/office-engineer-positive.webp",
+          "page": "https://dongze.win/collections/office-workers/#character-9"
+        }
+      ]
+    },
+    {
+      "code": "WORK-010",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "產線作業員",
+      "en": "Production Operator · Female",
+      "order": 10,
+      "variants": [
+        {
+          "code": "WORK-010",
+          "zh": "產線作業員・女性",
+          "en": "Production Operator · Female",
+          "image": "/assets/office-operator-positive.webp",
+          "page": "https://dongze.win/collections/office-workers/#character-10"
+        }
+      ]
+    },
+    {
+      "code": "CRAFT-001",
+      "series": "Everyday Craftspeople",
+      "slug": "everyday-craftspeople",
+      "zh": "咖啡師",
+      "en": "Barista",
+      "order": 1,
+      "variants": [
+        {
+          "code": "CRAFT-001",
+          "zh": "咖啡師",
+          "en": "Barista",
+          "image": "/assets/craftspeople-barista.webp",
+          "page": "https://dongze.win/collections/everyday-craftspeople/#barista"
+        }
+      ]
+    },
+    {
+      "code": "CRAFT-002",
+      "series": "Everyday Craftspeople",
+      "slug": "everyday-craftspeople",
+      "zh": "烘焙師",
+      "en": "Baker",
+      "order": 2,
+      "variants": [
+        {
+          "code": "CRAFT-002",
+          "zh": "烘焙師",
+          "en": "Baker",
+          "image": "/assets/craftspeople-baker.webp",
+          "page": "https://dongze.win/collections/everyday-craftspeople/#baker"
+        }
+      ]
+    },
+    {
+      "code": "CRAFT-003",
+      "series": "Everyday Craftspeople",
+      "slug": "everyday-craftspeople",
+      "zh": "髮型師",
+      "en": "Hairstylist",
+      "order": 3,
+      "variants": [
+        {
+          "code": "CRAFT-003",
+          "zh": "髮型師",
+          "en": "Hairstylist",
+          "image": "/assets/craftspeople-hairstylist.webp",
+          "page": "https://dongze.win/collections/everyday-craftspeople/#hairstylist"
+        }
+      ]
+    },
+    {
+      "code": "CRAFT-004",
+      "series": "Everyday Craftspeople",
+      "slug": "everyday-craftspeople",
+      "zh": "花藝師",
+      "en": "Florist",
+      "order": 4,
+      "variants": [
+        {
+          "code": "CRAFT-004",
+          "zh": "花藝師",
+          "en": "Florist",
+          "image": "/assets/craftspeople-florist.webp",
+          "page": "https://dongze.win/collections/everyday-craftspeople/#florist"
+        }
+      ]
+    },
+    {
+      "code": "CRAFT-005",
+      "series": "Everyday Craftspeople",
+      "slug": "everyday-craftspeople",
+      "zh": "修機車師傅",
+      "en": "Motorcycle Mechanic",
+      "order": 5,
+      "variants": [
+        {
+          "code": "CRAFT-005",
+          "zh": "修機車師傅",
+          "en": "Motorcycle Mechanic",
+          "image": "/assets/craftspeople-motorcycle-mechanic.webp",
+          "page": "https://dongze.win/collections/everyday-craftspeople/#motorcycle-mechanic"
+        }
+      ]
+    },
+    {
+      "code": "CRAFT-006",
+      "series": "Everyday Craftspeople",
+      "slug": "everyday-craftspeople",
+      "zh": "清潔人員",
+      "en": "Cleaner",
+      "order": 6,
+      "variants": [
+        {
+          "code": "CRAFT-006",
+          "zh": "清潔人員",
+          "en": "Cleaner",
+          "image": "/assets/craftspeople-cleaner.webp",
+          "page": "https://dongze.win/collections/everyday-craftspeople/#cleaner"
+        }
+      ]
+    },
+    {
+      "code": "CRAFT-007",
+      "series": "Everyday Craftspeople",
+      "slug": "everyday-craftspeople",
+      "zh": "房屋仲介",
+      "en": "Real Estate Agent",
+      "order": 7,
+      "variants": [
+        {
+          "code": "CRAFT-007",
+          "zh": "房屋仲介",
+          "en": "Real Estate Agent",
+          "image": "/assets/craftspeople-real-estate-agent.webp",
+          "page": "https://dongze.win/collections/everyday-craftspeople/#real-estate-agent"
+        }
+      ]
+    },
+    {
+      "code": "PBC-001",
+      "series": "Paperbag Cats",
+      "slug": "paperbag-cats",
+      "zh": "阿澤｜東澤紙袋貓",
+      "en": "Ze",
+      "order": 1,
+      "variants": [
+        {
+          "code": "PBC-001",
+          "zh": "阿澤｜東澤紙袋貓",
+          "en": "Ze · DONGZE Cat",
+          "image": "/assets/dongze-cat.png",
+          "page": "https://dongze.win/collections/paperbag-cats/#character-1"
+        }
+      ]
+    },
+    {
+      "code": "PBC-002",
+      "series": "Paperbag Cats",
+      "slug": "paperbag-cats",
+      "zh": "芽芽｜花園貓",
+      "en": "Sprout",
+      "order": 2,
+      "variants": [
+        {
+          "code": "PBC-002",
+          "zh": "芽芽｜花園貓",
+          "en": "Sprout · Garden Cat",
+          "image": "/garden-cat.png",
+          "page": "https://dongze.win/collections/paperbag-cats/#character-2"
+        }
+      ]
+    },
+    {
+      "code": "PBC-003",
+      "series": "Paperbag Cats",
+      "slug": "paperbag-cats",
+      "zh": "阿丸｜拉麵貓",
+      "en": "Maru",
+      "order": 3,
+      "variants": [
+        {
+          "code": "PBC-003",
+          "zh": "阿丸｜拉麵貓",
+          "en": "Maru · Ramen Cat",
+          "image": "/assets/ramen-cat.png",
+          "page": "https://dongze.win/collections/paperbag-cats/#character-3"
+        }
+      ]
+    },
+    {
+      "code": "PBC-004",
+      "series": "Paperbag Cats",
+      "slug": "paperbag-cats",
+      "zh": "阿溜｜滑板貓",
+      "en": "Ollie",
+      "order": 4,
+      "variants": [
+        {
+          "code": "PBC-004",
+          "zh": "阿溜｜滑板貓",
+          "en": "Ollie · Skate Cat",
+          "image": "/assets/skate-cat.png",
+          "page": "https://dongze.win/collections/paperbag-cats/#character-4"
+        }
+      ]
+    },
+    {
+      "code": "PBC-005",
+      "series": "Paperbag Cats",
+      "slug": "paperbag-cats",
+      "zh": "奶油｜主廚貓",
+      "en": "Butter",
+      "order": 5,
+      "variants": [
+        {
+          "code": "PBC-005",
+          "zh": "奶油｜主廚貓",
+          "en": "Butter · Chef Cat",
+          "image": "/assets/chef-cat.png",
+          "page": "https://dongze.win/collections/paperbag-cats/#character-5"
+        }
+      ]
+    },
+    {
+      "code": "PBC-006",
+      "series": "Paperbag Cats",
+      "slug": "paperbag-cats",
+      "zh": "點點｜畫家貓",
+      "en": "Dottie",
+      "order": 6,
+      "variants": [
+        {
+          "code": "PBC-006",
+          "zh": "點點｜畫家貓",
+          "en": "Dottie · Painter Cat",
+          "image": "/assets/painter-cat.png",
+          "page": "https://dongze.win/collections/paperbag-cats/#character-6"
+        }
+      ]
+    },
+    {
+      "code": "PBC-007",
+      "series": "Paperbag Cats",
+      "slug": "paperbag-cats",
+      "zh": "佩佩｜披薩貓",
+      "en": "Peppo",
+      "order": 7,
+      "variants": [
+        {
+          "code": "PBC-007",
+          "zh": "佩佩｜披薩貓",
+          "en": "Peppo · Pizza Cat",
+          "image": "/assets/pizza-cat.png",
+          "page": "https://dongze.win/collections/paperbag-cats/#character-7"
+        }
+      ]
+    },
+    {
+      "code": "PBC-008",
+      "series": "Paperbag Cats",
+      "slug": "paperbag-cats",
+      "zh": "雅雅｜布偶貓",
+      "en": "Aria · Ragdoll Cat",
+      "order": 8,
+      "variants": [
+        {
+          "code": "PBC-008",
+          "zh": "雅雅｜布偶貓",
+          "en": "Aria · Ragdoll Cat",
+          "image": "/assets/aria-cat.png",
+          "page": "https://dongze.win/collections/paperbag-cats/#character-8"
+        }
+      ]
+    },
+    {
+      "code": "TAIKE-001",
+      "series": "Taike Series",
+      "slug": "taike",
+      "zh": "磚頭哥",
+      "en": "Brick Bro",
+      "order": 1,
+      "variants": [
+        {
+          "code": "TAIKE-001",
+          "zh": "磚頭哥",
+          "en": "Brick Bro",
+          "image": "/assets/taike-brick-bro-original.webp",
+          "page": "https://dongze.win/collections/taike/#character-1"
+        }
+      ]
+    },
+    {
+      "code": "TAIKE-002",
+      "series": "Taike Series",
+      "slug": "taike",
+      "zh": "棒球棍哥",
+      "en": "Bat Bro",
+      "order": 2,
+      "variants": [
+        {
+          "code": "TAIKE-002",
+          "zh": "棒球棍哥",
+          "en": "Bat Bro",
+          "image": "/assets/taike-bat-bro-original.webp",
+          "page": "https://dongze.win/collections/taike/#character-2"
+        }
+      ]
+    },
+    {
+      "code": "TAIKE-003",
+      "series": "Taike Series",
+      "slug": "taike",
+      "zh": "摺椅哥",
+      "en": "Chair Bro",
+      "order": 3,
+      "variants": [
+        {
+          "code": "TAIKE-003",
+          "zh": "摺椅哥",
+          "en": "Chair Bro",
+          "image": "/assets/taike-chair-bro-original.webp",
+          "page": "https://dongze.win/collections/taike/#character-3"
+        }
+      ]
+    },
+    {
+      "code": "TAIKE-004",
+      "series": "Taike Series",
+      "slug": "taike",
+      "zh": "機車咖",
+      "en": "Scooter Pal",
+      "order": 4,
+      "variants": [
+        {
+          "code": "TAIKE-004",
+          "zh": "機車咖",
+          "en": "Scooter Pal",
+          "image": "/assets/taike-scooter-pal-original.webp",
+          "page": "https://dongze.win/collections/taike/#character-4"
+        }
+      ]
+    },
+    {
+      "code": "TAIKE-005",
+      "series": "Taike Series",
+      "slug": "taike",
+      "zh": "夜市咖",
+      "en": "Night Market Pal",
+      "order": 5,
+      "variants": [
+        {
+          "code": "TAIKE-005",
+          "zh": "夜市咖",
+          "en": "Night Market Pal",
+          "image": "/assets/taike-night-market-pal-original.webp",
+          "page": "https://dongze.win/collections/taike/#character-5"
+        }
+      ]
+    },
+    {
+      "code": "TAIKE-006",
+      "series": "Taike Series",
+      "slug": "taike",
+      "zh": "廟口咖",
+      "en": "Temple Pal",
+      "order": 6,
+      "variants": [
+        {
+          "code": "TAIKE-006",
+          "zh": "廟口咖",
+          "en": "Temple Pal",
+          "image": "/assets/taike-temple-pal-original.webp",
+          "page": "https://dongze.win/collections/taike/#character-6"
+        }
+      ]
+    },
+    {
+      "code": "TAIKE-007",
+      "series": "Taike Series",
+      "slug": "taike",
+      "zh": "總舖師",
+      "en": "Banquet Master",
+      "order": 7,
+      "variants": [
+        {
+          "code": "TAIKE-007",
+          "zh": "總舖師・隱藏款",
+          "en": "Banquet Master · Secret",
+          "image": "/assets/taike-banquet-master-original.webp",
+          "page": "https://dongze.win/collections/taike/#character-7"
+        }
+      ]
+    }
+  ]
+}
