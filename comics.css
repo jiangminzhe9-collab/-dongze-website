@@ -24,3 +24,14 @@
 @media(max-width:760px){.comic-latest .section-heading{display:block}.comic-all{margin-top:20px}.comic-latest-grid{grid-template-columns:1fr;gap:24px}.comic-story-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center}.comic-story-card>div{padding:16px}.comic-story-card h3{font-size:18px}.comic-latest-intro{font-size:14px}.comic-series-tag{font-size:10px}}
 @media(prefers-reduced-motion:reduce){.comic-story-card{transition:none}.comic-story-card:hover{transform:none}}
 
+
+/* Everyday Craftspeople: retain full uncropped artwork and series colours. */
+.series-chip-crafts{background:#EAF4EA;border-color:#426A4B;color:#426A4B;margin-left:8px}
+.comic-section-crafts{background:#f5f9f3;border-top:1px solid #d4e3d1!important;scroll-margin-top:24px}
+.comic-section-crafts .eyebrow,.craft-series-link{color:#426A4B}.craft-series-link{display:inline-block;margin-top:16px;text-decoration:underline}
+.comic-section-crafts .comic-menu a[aria-current=true]{background:#EAF4EA;border-color:#426A4B;box-shadow:inset 3px 0 #426A4B}
+.comic-section-crafts .comic-menu a:hover{border-color:#426A4B}
+.comic-section-crafts .comic-menu a:focus-visible{outline-color:#426A4B}
+.comic-reader [hidden]{display:none!important}
+.comic-story-card .comic-series-tag{color:#426A4B}
+@media(max-width:760px){.series-chip-crafts{margin-left:0;margin-right:8px}}

@@ -6,10 +6,17 @@
     {id:'after-work-switch',art:'after-work-switch-original',no:'04',zh:'下班切換',en:'After-Work Mode'},
     {id:'meeting-about-meetings',no:'05',zh:'減少開會',en:'Fewer Meetings'}
   ];
+
+  const craftEpisodes = [
+    {id:'craft-big-job',art:'craft-story-big-job-original',no:'01',zh:'大工程',en:'The Big Repair'},
+    {id:'craft-silent-relay',art:'craft-story-silent-relay-original',no:'02',zh:'無聲接力',en:'The Silent Relay'},
+    {id:'craft-best-spot',art:'craft-story-best-spot-original',no:'03',zh:'最佳位置',en:'The Perfect Spot'},
+    {id:'craft-just-a-little',art:'craft-story-just-a-little-original',no:'04',zh:'一點點',en:'Just a Little'}
+  ];
   const section = document.querySelector('#comic');
   if (section && !document.body.classList.contains('comics-library')) {
     section.className = 'section comic-latest';
-    section.innerHTML = '<div class="section-heading"><div><p class="eyebrow">DONGZE / COMIC LIBRARY</p><h2 id="comic-title" data-zh="上班日常，笑著過。" data-en="A little humor for the working day.">上班日常，笑著過。</h2></div><a class="comic-all" href="/comics/" data-zh="看全部漫畫 ↗" data-en="Browse all comics ↗">看全部漫畫 ↗</a></div><p class="comic-latest-intro" data-zh="紙袋人的職場日常，把笑點和溫暖留給你。" data-en="Paperbag office stories with humor and warmth.">紙袋人的職場日常，把笑點和溫暖留給你。</p><div class="comic-latest-grid">' + episodes.slice(-3).reverse().map(e=>'<a class="comic-story-card" href="/comics/#comic-'+e.id+'"><img src="/assets/story-'+(e.art||e.id)+'.webp" alt="'+e.zh+'四格漫畫" loading="lazy" width="1024" height="1536"><div><span class="comic-series-tag" data-zh="紙袋人・職場日常" data-en="Paperbag People · Office Life">紙袋人・職場日常</span><h3 data-zh="'+e.no+' / '+e.zh+'" data-en="'+e.no+' / '+e.en+'">'+e.no+' / '+e.zh+'</h3><span class="comic-read" data-zh="閱讀完整漫畫 ↗" data-en="Read the full comic ↗">閱讀完整漫畫 ↗</span></div></a>').join('') + '</div>';
+    section.innerHTML = '<div class="section-heading"><div><p class="eyebrow">DONGZE / COMIC LIBRARY</p><h2 id="comic-title" data-zh="日常故事，笑著過。" data-en="A little humour for everyday life.">日常故事，笑著過。</h2></div><a class="comic-all" href="/comics/" data-zh="看全部漫畫 ↗" data-en="Browse all comics ↗">看全部漫畫 ↗</a></div><p class="comic-latest-intro" data-zh="從職場到街坊，收藏紙袋人的笑點與溫暖。" data-en="Paperbag stories from the office and the neighbourhood, with humour and warmth.">從職場到街坊，收藏紙袋人的笑點與溫暖。</p><div class="comic-latest-grid">' + craftEpisodes.slice(-3).reverse().map(e=>'<a class="comic-story-card" href="/comics/#comic-'+e.id+'"><img src="/assets/'+(e.art||('story-'+e.id))+'.jpeg" alt="'+e.zh+'四格漫畫" loading="lazy" width="878" height="1536"><div><span class="comic-series-tag" data-zh="東澤生活職人" data-en="Everyday Craftspeople">東澤生活職人</span><h3 data-zh="'+e.no+' / '+e.zh+'" data-en="'+e.no+' / '+e.en+'">'+e.no+' / '+e.zh+'</h3><span class="comic-read" data-zh="閱讀完整漫畫 ↗" data-en="Read the full comic ↗">閱讀完整漫畫 ↗</span></div></a>').join('') + '</div>';
     return;
   }
   const links = [...document.querySelectorAll('[data-comic-select]')];
@@ -17,8 +24,10 @@
   if (!links.length) return;
   function select(id) {
     if (!pages.some(page => page.id === id)) return;
-    links.forEach(link => link.setAttribute('aria-current', String(link.hash === '#' + id)));
-    pages.forEach(page => { page.hidden = page.id !== id; });
+    const target = pages.find(page => page.id === id);
+    const group = target.closest('.comic-section');
+    links.filter(link => link.closest('.comic-section') === group).forEach(link => link.setAttribute('aria-current', String(link.hash === '#' + id)));
+    pages.filter(page => page.closest('.comic-section') === group).forEach(page => { page.hidden = page.id !== id; });
   }
   links.forEach(link => link.addEventListener('click', event => {
     event.preventDefault();
@@ -26,6 +35,10 @@
     history.replaceState(null, '', link.hash);
   }));
   window.addEventListener('hashchange', () => select(location.hash.slice(1)));
+  document.querySelectorAll('.comic-section').forEach(group => {
+    const first = group.querySelector('[data-comic-page]');
+    if (first) select(first.id);
+  });
   select(pages.some(page => '#' + page.id === location.hash) ? location.hash.slice(1) : 'comic-deadline-intercept');
 })();
 
