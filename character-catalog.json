@@ -55,6 +55,14 @@
       "prefix": "STREET",
       "color": "#E7F5F1",
       "ink": "#28695A"
+    },
+    {
+      "name": "Curious Residents",
+      "slug": "curious-residents",
+      "zh": "奇想居民",
+      "prefix": "CURIO",
+      "color": "#FFF4D9",
+      "ink": "#806329"
     }
   ],
   "characters": [
@@ -1021,6 +1029,125 @@
           "en": "Rune",
           "image": "/assets/street-rune.webp",
           "page": "https://dongze.win/collections/street-players/#rune"
+        }
+      ]
+    },
+    {
+      "code": "CURIO-001",
+      "series": "Curious Residents",
+      "slug": "curious-residents",
+      "zh": "夢境收藏家",
+      "en": "Dream Collector",
+      "order": 1,
+      "variants": [
+        {
+          "code": "CURIO-001",
+          "zh": "夢境收藏家",
+          "en": "Dream Collector",
+          "image": "/assets/curio-dream-collector.webp",
+          "page": "https://dongze.win/collections/curious-residents/#dream-collector"
+        }
+      ]
+    },
+    {
+      "code": "CURIO-002",
+      "series": "Curious Residents",
+      "slug": "curious-residents",
+      "zh": "最後一刻高手",
+      "en": "Last-Minute Maker",
+      "order": 2,
+      "variants": [
+        {
+          "code": "CURIO-002",
+          "zh": "最後一刻高手",
+          "en": "Last-Minute Maker",
+          "image": "/assets/curio-last-minute-maker.webp",
+          "page": "https://dongze.win/collections/curious-residents/#last-minute-maker"
+        }
+      ]
+    },
+    {
+      "code": "CURIO-003",
+      "series": "Curious Residents",
+      "slug": "curious-residents",
+      "zh": "好運信差",
+      "en": "Luck Courier",
+      "order": 3,
+      "variants": [
+        {
+          "code": "CURIO-003",
+          "zh": "好運信差",
+          "en": "Luck Courier",
+          "image": "/assets/curio-luck-courier.webp",
+          "page": "https://dongze.win/collections/curious-residents/#luck-courier"
+        }
+      ]
+    },
+    {
+      "code": "CURIO-004",
+      "series": "Curious Residents",
+      "slug": "curious-residents",
+      "zh": "靈感修理師",
+      "en": "Inspiration Repairer",
+      "order": 4,
+      "variants": [
+        {
+          "code": "CURIO-004",
+          "zh": "靈感修理師",
+          "en": "Inspiration Repairer",
+          "image": "/assets/curio-inspiration-repairer.webp",
+          "page": "https://dongze.win/collections/curious-residents/#inspiration-repairer"
+        }
+      ]
+    },
+    {
+      "code": "CURIO-005",
+      "series": "Curious Residents",
+      "slug": "curious-residents",
+      "zh": "情緒調色師",
+      "en": "Mood Colourist",
+      "order": 5,
+      "variants": [
+        {
+          "code": "CURIO-005",
+          "zh": "情緒調色師",
+          "en": "Mood Colourist",
+          "image": "/assets/curio-mood-colourist.webp",
+          "page": "https://dongze.win/collections/curious-residents/#mood-colourist"
+        }
+      ]
+    },
+    {
+      "code": "CURIO-006",
+      "series": "Curious Residents",
+      "slug": "curious-residents",
+      "zh": "遺失物偵探",
+      "en": "Lost-and-Found Detective",
+      "order": 6,
+      "variants": [
+        {
+          "code": "CURIO-006",
+          "zh": "遺失物偵探",
+          "en": "Lost-and-Found Detective",
+          "image": "/assets/curio-lost-and-found-detective.webp",
+          "page": "https://dongze.win/collections/curious-residents/#lost-and-found-detective"
+        }
+      ]
+    },
+    {
+      "code": "CURIO-007",
+      "series": "Curious Residents",
+      "slug": "curious-residents",
+      "zh": "微光園丁",
+      "en": "Glimmer Gardener",
+      "order": 7,
+      "variants": [
+        {
+          "code": "CURIO-007",
+          "zh": "微光園丁",
+          "en": "Glimmer Gardener",
+          "image": "/assets/curio-glimmer-gardener.webp",
+          "page": "https://dongze.win/collections/curious-residents/#glimmer-gardener"
         }
       ]
     }
