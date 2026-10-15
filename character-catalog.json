@@ -39,6 +39,22 @@
       "prefix": "TAIKE",
       "color": "#FBECEE",
       "ink": "#8C4E59"
+    },
+    {
+      "name": "City After Dark",
+      "slug": "city-after-dark",
+      "zh": "城市夜班",
+      "prefix": "NIGHT",
+      "color": "#EAF0F7",
+      "ink": "#28346A"
+    },
+    {
+      "name": "Street Players",
+      "slug": "street-players",
+      "zh": "街頭玩家",
+      "prefix": "STREET",
+      "color": "#E7F5F1",
+      "ink": "#28695A"
     }
   ],
   "characters": [
@@ -767,6 +783,244 @@
           "en": "Banquet Master · Secret",
           "image": "/assets/taike-banquet-master-original.webp",
           "page": "https://dongze.win/collections/taike/#character-7"
+        }
+      ]
+    },
+    {
+      "code": "NIGHT-001",
+      "series": "City After Dark",
+      "slug": "city-after-dark",
+      "zh": "夜班店員",
+      "en": "Night-shift Clerk",
+      "order": 1,
+      "variants": [
+        {
+          "code": "NIGHT-001",
+          "zh": "夜班店員",
+          "en": "Night-shift Clerk",
+          "image": "/assets/city-night-night-clerk.jpeg",
+          "page": "https://dongze.win/collections/city-after-dark/#night-clerk"
+        }
+      ]
+    },
+    {
+      "code": "NIGHT-002",
+      "series": "City After Dark",
+      "slug": "city-after-dark",
+      "zh": "夜班計程車司機",
+      "en": "Night-shift Taxi Driver",
+      "order": 2,
+      "variants": [
+        {
+          "code": "NIGHT-002",
+          "zh": "夜班計程車司機",
+          "en": "Night-shift Taxi Driver",
+          "image": "/assets/city-night-taxi-driver.jpeg",
+          "page": "https://dongze.win/collections/city-after-dark/#taxi-driver"
+        }
+      ]
+    },
+    {
+      "code": "NIGHT-003",
+      "series": "City After Dark",
+      "slug": "city-after-dark",
+      "zh": "急診護理師",
+      "en": "Emergency Nurse",
+      "order": 3,
+      "variants": [
+        {
+          "code": "NIGHT-003",
+          "zh": "急診護理師",
+          "en": "Emergency Nurse",
+          "image": "/assets/city-night-emergency-nurse.jpeg",
+          "page": "https://dongze.win/collections/city-after-dark/#emergency-nurse"
+        }
+      ]
+    },
+    {
+      "code": "NIGHT-004",
+      "series": "City After Dark",
+      "slug": "city-after-dark",
+      "zh": "深夜電台主持人",
+      "en": "Late-night Radio Host",
+      "order": 4,
+      "variants": [
+        {
+          "code": "NIGHT-004",
+          "zh": "深夜電台主持人",
+          "en": "Late-night Radio Host",
+          "image": "/assets/city-night-radio-host.jpeg",
+          "page": "https://dongze.win/collections/city-after-dark/#radio-host"
+        }
+      ]
+    },
+    {
+      "code": "NIGHT-005",
+      "series": "City After Dark",
+      "slug": "city-after-dark",
+      "zh": "夜市收攤攤主",
+      "en": "Night Market Vendor",
+      "order": 5,
+      "variants": [
+        {
+          "code": "NIGHT-005",
+          "zh": "夜市收攤攤主",
+          "en": "Night Market Vendor",
+          "image": "/assets/city-night-market-vendor.jpeg",
+          "page": "https://dongze.win/collections/city-after-dark/#market-vendor"
+        }
+      ]
+    },
+    {
+      "code": "NIGHT-006",
+      "series": "City After Dark",
+      "slug": "city-after-dark",
+      "zh": "夜間道路維修員",
+      "en": "Night Road Worker",
+      "order": 6,
+      "variants": [
+        {
+          "code": "NIGHT-006",
+          "zh": "夜間道路維修員",
+          "en": "Night Road Worker",
+          "image": "/assets/city-night-road-worker.jpeg",
+          "page": "https://dongze.win/collections/city-after-dark/#road-worker"
+        }
+      ]
+    },
+    {
+      "code": "NIGHT-007",
+      "series": "City After Dark",
+      "slug": "city-after-dark",
+      "zh": "清晨送報員",
+      "en": "Early-morning Newspaper Deliverer",
+      "order": 7,
+      "variants": [
+        {
+          "code": "NIGHT-007",
+          "zh": "清晨送報員",
+          "en": "Early-morning Newspaper Deliverer",
+          "image": "/assets/city-night-newspaper-deliverer.jpeg",
+          "page": "https://dongze.win/collections/city-after-dark/#newspaper-deliverer"
+        }
+      ]
+    },
+    {
+      "code": "STREET-001",
+      "series": "Street Players",
+      "slug": "street-players",
+      "zh": "洛斐",
+      "en": "Riff",
+      "order": 1,
+      "variants": [
+        {
+          "code": "STREET-001",
+          "zh": "洛斐",
+          "en": "Riff",
+          "image": "/assets/street-riff.webp",
+          "page": "https://dongze.win/collections/street-players/#riff"
+        }
+      ]
+    },
+    {
+      "code": "STREET-002",
+      "series": "Street Players",
+      "slug": "street-players",
+      "zh": "米菈",
+      "en": "Mira",
+      "order": 2,
+      "variants": [
+        {
+          "code": "STREET-002",
+          "zh": "米菈",
+          "en": "Mira",
+          "image": "/assets/street-mira.webp",
+          "page": "https://dongze.win/collections/street-players/#mira"
+        }
+      ]
+    },
+    {
+      "code": "STREET-003",
+      "series": "Street Players",
+      "slug": "street-players",
+      "zh": "莉悠",
+      "en": "Rio",
+      "order": 3,
+      "variants": [
+        {
+          "code": "STREET-003",
+          "zh": "莉悠",
+          "en": "Rio",
+          "image": "/assets/street-rio.webp",
+          "page": "https://dongze.win/collections/street-players/#rio"
+        }
+      ]
+    },
+    {
+      "code": "STREET-004",
+      "series": "Street Players",
+      "slug": "street-players",
+      "zh": "凱洛",
+      "en": "Kairo",
+      "order": 4,
+      "variants": [
+        {
+          "code": "STREET-004",
+          "zh": "凱洛",
+          "en": "Kairo",
+          "image": "/assets/street-kairo.webp",
+          "page": "https://dongze.win/collections/street-players/#kairo"
+        }
+      ]
+    },
+    {
+      "code": "STREET-005",
+      "series": "Street Players",
+      "slug": "street-players",
+      "zh": "諾瓦",
+      "en": "Nova",
+      "order": 5,
+      "variants": [
+        {
+          "code": "STREET-005",
+          "zh": "諾瓦",
+          "en": "Nova",
+          "image": "/assets/street-nova.webp",
+          "page": "https://dongze.win/collections/street-players/#nova"
+        }
+      ]
+    },
+    {
+      "code": "STREET-006",
+      "series": "Street Players",
+      "slug": "street-players",
+      "zh": "艾克",
+      "en": "Ike",
+      "order": 6,
+      "variants": [
+        {
+          "code": "STREET-006",
+          "zh": "艾克",
+          "en": "Ike",
+          "image": "/assets/street-ike.webp",
+          "page": "https://dongze.win/collections/street-players/#ike"
+        }
+      ]
+    },
+    {
+      "code": "STREET-007",
+      "series": "Street Players",
+      "slug": "street-players",
+      "zh": "路恩",
+      "en": "Rune",
+      "order": 7,
+      "variants": [
+        {
+          "code": "STREET-007",
+          "zh": "路恩",
+          "en": "Rune",
+          "image": "/assets/street-rune.webp",
+          "page": "https://dongze.win/collections/street-players/#rune"
         }
       ]
     }
