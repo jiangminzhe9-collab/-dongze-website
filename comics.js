@@ -4,7 +4,8 @@
     {id:'coffee-rescue',no:'02',zh:'咖啡救援',en:'Coffee Rescue'},
     {id:'reboot-helper',no:'03',zh:'重新開機',en:'Have You Tried Restarting?'},
     {id:'after-work-switch',art:'after-work-switch-original',no:'04',zh:'下班切換',en:'After-Work Mode'},
-    {id:'meeting-about-meetings',no:'05',zh:'減少開會',en:'Fewer Meetings'}
+    {id:'meeting-about-meetings',no:'05',zh:'減少開會',en:'Fewer Meetings'},
+    {id:'coat-overtime',no:'06',zh:'加班的是外套',en:'The Coat Works Overtime'}
   ];
 
   const craftEpisodes = [
@@ -16,7 +17,7 @@
   const section = document.querySelector('#comic');
   if (section && !document.body.classList.contains('comics-library')) {
     section.className = 'section comic-latest';
-    section.innerHTML = '<div class="section-heading"><div><p class="eyebrow">DONGZE / COMIC LIBRARY</p><h2 id="comic-title" data-zh="日常故事，笑著過。" data-en="A little humour for everyday life.">日常故事，笑著過。</h2></div><a class="comic-all" href="/comics/" data-zh="看全部漫畫 ↗" data-en="Browse all comics ↗">看全部漫畫 ↗</a></div><p class="comic-latest-intro" data-zh="從職場到街坊，收藏紙袋人的笑點與溫暖。" data-en="Paperbag stories from the office and the neighbourhood, with humour and warmth.">從職場到街坊，收藏紙袋人的笑點與溫暖。</p><div class="comic-latest-grid">' + craftEpisodes.slice(-3).reverse().map(e=>'<a class="comic-story-card" href="/comics/#comic-'+e.id+'"><img src="/assets/'+(e.art||('story-'+e.id))+'.jpeg" alt="'+e.zh+'四格漫畫" loading="lazy" width="878" height="1536"><div><span class="comic-series-tag" data-zh="東澤生活職人" data-en="Everyday Craftspeople">東澤生活職人</span><h3 data-zh="'+e.no+' / '+e.zh+'" data-en="'+e.no+' / '+e.en+'">'+e.no+' / '+e.zh+'</h3><span class="comic-read" data-zh="閱讀完整漫畫 ↗" data-en="Read the full comic ↗">閱讀完整漫畫 ↗</span></div></a>').join('') + '</div>';
+    section.innerHTML = '<div class="section-heading"><div><p class="eyebrow">DONGZE / COMIC LIBRARY</p><h2 id="comic-title" data-zh="日常故事，笑著過。" data-en="A little humour for everyday life.">日常故事，笑著過。</h2></div><a class="comic-all" href="/comics/" data-zh="看全部漫畫 ↗" data-en="Browse all comics ↗">看全部漫畫 ↗</a></div><p class="comic-latest-intro" data-zh="從職場到街坊，收藏紙袋人的笑點與溫暖。" data-en="Paperbag stories from the office and the neighbourhood, with humour and warmth.">從職場到街坊，收藏紙袋人的笑點與溫暖。</p><div class="comic-latest-grid"><a class="comic-story-card" href="/comics/#comic-coat-overtime"><img src="/assets/story-coat-overtime.webp" alt="加班的是外套：本人下班，外套值班。" loading="lazy" width="1024" height="1536"><div><span class="comic-series-tag" data-zh="紙袋人・職場日常" data-en="Paperbag People · Office Life">紙袋人・職場日常</span><h3 data-zh="06 / 加班的是外套" data-en="06 / The Coat Works Overtime">06 / 加班的是外套</h3><span class="comic-read" data-zh="閱讀完整漫畫 ↗" data-en="Read the full comic ↗">閱讀完整漫畫 ↗</span></div></a>' + craftEpisodes.slice(-2).reverse().map(e=>'<a class="comic-story-card" href="/comics/#comic-'+e.id+'"><img src="/assets/'+(e.art||('story-'+e.id))+'.jpeg" alt="'+e.zh+'四格漫畫" loading="lazy" width="878" height="1536"><div><span class="comic-series-tag" data-zh="東澤生活職人" data-en="Everyday Craftspeople">東澤生活職人</span><h3 data-zh="'+e.no+' / '+e.zh+'" data-en="'+e.no+' / '+e.en+'">'+e.no+' / '+e.zh+'</h3><span class="comic-read" data-zh="閱讀完整漫畫 ↗" data-en="Read the full comic ↗">閱讀完整漫畫 ↗</span></div></a>').join('') + '</div>';
     return;
   }
   const links = [...document.querySelectorAll('[data-comic-select]')];
