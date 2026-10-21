@@ -10,8 +10,9 @@ document.querySelector('#language')?.addEventListener('click', () => {
   document.querySelectorAll('a[href]').forEach(link => {
     const target = new URL(link.href, location.href);
     if (target.origin === 'https://paperbag-afterhours.mcjohn686.chatgpt.site' &&
-        ['/town.html', '/town-en.html'].includes(target.pathname)) {
-      target.pathname = english ? '/town-en.html' : '/town.html';
+        ['/town.html', '/town-en.html', '/cafe.html', '/cafe-en.html'].includes(target.pathname)) {
+      const cafe = target.pathname.startsWith('/cafe');
+      target.pathname = cafe ? (english ? '/cafe-en.html' : '/cafe.html') : (english ? '/town-en.html' : '/town.html');
       link.href = target.href;
     }
   });
