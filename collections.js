@@ -7,6 +7,14 @@ document.querySelector('#language')?.addEventListener('click', () => {
   document.querySelectorAll('[data-zh][data-en]').forEach(el => {
     el.innerHTML = el.dataset[english ? 'en' : 'zh'];
   });
+  document.querySelectorAll('a[href]').forEach(link => {
+    const target = new URL(link.href, location.href);
+    if (target.origin === 'https://paperbag-afterhours.mcjohn686.chatgpt.site' &&
+        ['/town.html', '/town-en.html'].includes(target.pathname)) {
+      target.pathname = english ? '/town-en.html' : '/town.html';
+      link.href = target.href;
+    }
+  });
   const button = document.querySelector('#language');
   button.textContent = english ? '中文' : 'EN';
   button.setAttribute('aria-label', english ? '切換繁體中文' : 'Switch to English');
