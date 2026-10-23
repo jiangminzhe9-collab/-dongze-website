@@ -1,12 +1,13 @@
 // Shared behavior for the homepage and static collection pages.
 let english = false;
 const originalTitle = document.title;
-document.querySelector('#language')?.addEventListener('click', () => {
-  english = !english;
+function setSiteLanguage(value) {
+  english = value;
   document.documentElement.lang = english ? 'en' : 'zh-Hant';
   document.querySelectorAll('[data-zh][data-en]').forEach(el => {
     el.innerHTML = el.dataset[english ? 'en' : 'zh'];
   });
+  document.querySelectorAll('[data-href-zh][data-href-en]').forEach(link => { link.href = link.dataset[english ? 'hrefEn' : 'hrefZh']; });
   document.querySelectorAll('a[href]').forEach(link => {
     const target = new URL(link.href, location.href);
     if (target.origin === 'https://paperbag-afterhours.mcjohn686.chatgpt.site' &&
@@ -21,6 +22,13 @@ document.querySelector('#language')?.addEventListener('click', () => {
   button.setAttribute('aria-label', english ? '切換繁體中文' : 'Switch to English');
   const heading = document.querySelector('.collection-heading h1');
   document.title = english ? (heading ? heading.textContent + ' | Original Paperbag Characters' : 'DONGZE | Original Paperbag Characters & Art Toys') : originalTitle;
+  const url = new URL(location.href);
+  if (english) url.searchParams.set('lang', 'en'); else url.searchParams.delete('lang');
+  history.replaceState(null, '', url);
+}
+document.querySelector('#language')?.addEventListener('click', () => setSiteLanguage(!english));
+document.addEventListener('DOMContentLoaded', () => {
+  if (new URLSearchParams(location.search).get('lang') === 'en') setSiteLanguage(true);
 });
 document.querySelectorAll('[data-copy-contact]').forEach(button => {
   button.addEventListener('click', async () => {
@@ -34,14 +42,29 @@ document.querySelectorAll('[data-copy-contact]').forEach(button => {
     }
   });
 });
-document.querySelectorAll('canvas[data-art]').forEach(canvas => {
+const artObserver = 'IntersectionObserver' in window ? new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (!entry.isIntersecting) return;
+    artObserver.unobserve(entry.target);
+    loadCanvasArt(entry.target);
+  });
+}, { rootMargin: '240px' }) : null;
+function loadCanvasArt(canvas) {
+  if (canvas.dataset.artLoaded) return;
+  canvas.dataset.artLoaded = 'true';
   const image = new Image();
+  image.decoding = 'async';
+  if (canvas.closest('.hero')) image.fetchPriority = 'high';
   image.onload = () => {
     const scale = Math.min(1, 1200 / Math.max(image.naturalWidth, image.naturalHeight));
     canvas.width = Math.round(image.naturalWidth * scale);
     canvas.height = Math.round(image.naturalHeight * scale);
     canvas.getContext('2d').drawImage(image, 0, 0, canvas.width, canvas.height);
   };
-  image.onerror = () => canvas.setAttribute('aria-label', '圖片暫時無法載入 / Image unavailable');
+  image.onerror = () => { delete canvas.dataset.artLoaded; canvas.setAttribute('aria-label', english ? 'Image unavailable' : '圖片暫時無法載入'); };
   image.src = canvas.dataset.art;
+}
+document.querySelectorAll('canvas[data-art]').forEach(canvas => {
+  if (canvas.closest('.hero') || !artObserver) loadCanvasArt(canvas);
+  else artObserver.observe(canvas);
 });
