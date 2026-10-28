@@ -1150,6 +1150,24 @@
           "page": "https://dongze.win/collections/curious-residents/#glimmer-gardener"
         }
       ]
+    },
+    {
+      "code": "WORK-011",
+      "series": "Office Workers",
+      "slug": "office-workers",
+      "zh": "厭世上班貓",
+      "en": "Office Cat",
+      "order": 11,
+      "variants": [
+        {
+          "code": "WORK-011",
+          "zh": "厭世上班貓",
+          "en": "Office Cat",
+          "series": "Office Workers",
+          "image": "/assets/office-cat.webp",
+          "page": "https://dongze.win/characters/office-cat/"
+        }
+      ]
     }
   ]
 }
