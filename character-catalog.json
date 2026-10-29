@@ -63,6 +63,22 @@
       "prefix": "CURIO",
       "color": "#FFF4D9",
       "ink": "#806329"
+    },
+    {
+      "name": "Baseball Crew",
+      "slug": "baseball",
+      "zh": "棒球班底",
+      "prefix": "BB",
+      "color": "#F7E9DA",
+      "ink": "#172437"
+    },
+    {
+      "name": "Basketball Starting Five",
+      "slug": "basketball",
+      "zh": "籃球先發五人",
+      "prefix": "BK",
+      "color": "#F7E9DA",
+      "ink": "#172437"
     }
   ],
   "characters": [
@@ -1166,6 +1182,193 @@
           "series": "Office Workers",
           "image": "/assets/office-cat.webp",
           "page": "https://dongze.win/characters/office-cat/"
+        }
+      ]
+    },
+    {
+      "code": "BB-001",
+      "series": "Baseball Crew",
+      "slug": "baseball",
+      "zh": "阿準",
+      "en": "A-Zhun",
+      "order": 65,
+      "variants": [
+        {
+          "code": "BB-001",
+          "zh": "阿準",
+          "en": "A-Zhun",
+          "image": "/assets/sports/baseball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BB-001"
+        }
+      ]
+    },
+    {
+      "code": "BB-002",
+      "series": "Baseball Crew",
+      "slug": "baseball",
+      "zh": "大砲",
+      "en": "Da-Pao",
+      "order": 66,
+      "variants": [
+        {
+          "code": "BB-002",
+          "zh": "大砲",
+          "en": "Da-Pao",
+          "image": "/assets/sports/baseball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BB-002"
+        }
+      ]
+    },
+    {
+      "code": "BB-003",
+      "series": "Baseball Crew",
+      "slug": "baseball",
+      "zh": "阿捕",
+      "en": "A-Bu",
+      "order": 67,
+      "variants": [
+        {
+          "code": "BB-003",
+          "zh": "阿捕",
+          "en": "A-Bu",
+          "image": "/assets/sports/baseball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BB-003"
+        }
+      ]
+    },
+    {
+      "code": "BB-004",
+      "series": "Baseball Crew",
+      "slug": "baseball",
+      "zh": "老包",
+      "en": "Lao-Bao",
+      "order": 68,
+      "variants": [
+        {
+          "code": "BB-004",
+          "zh": "老包",
+          "en": "Lao-Bao",
+          "image": "/assets/sports/baseball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BB-004"
+        }
+      ]
+    },
+    {
+      "code": "BB-005",
+      "series": "Baseball Crew",
+      "slug": "baseball",
+      "zh": "鐵面",
+      "en": "Tie-Mian",
+      "order": 69,
+      "variants": [
+        {
+          "code": "BB-005",
+          "zh": "鐵面",
+          "en": "Tie-Mian",
+          "image": "/assets/sports/baseball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BB-005"
+        }
+      ]
+    },
+    {
+      "code": "BB-006",
+      "series": "Baseball Crew",
+      "slug": "baseball",
+      "zh": "小晴",
+      "en": "Xiao-Qing",
+      "order": 70,
+      "variants": [
+        {
+          "code": "BB-006",
+          "zh": "小晴",
+          "en": "Xiao-Qing",
+          "image": "/assets/sports/baseball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BB-006"
+        }
+      ]
+    },
+    {
+      "code": "BK-001",
+      "series": "Basketball Starting Five",
+      "slug": "basketball",
+      "zh": "Dash",
+      "en": "Dash",
+      "order": 71,
+      "variants": [
+        {
+          "code": "BK-001",
+          "zh": "Dash",
+          "en": "Dash",
+          "image": "/assets/sports/basketball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BK-001"
+        }
+      ]
+    },
+    {
+      "code": "BK-002",
+      "series": "Basketball Starting Five",
+      "slug": "basketball",
+      "zh": "Ace",
+      "en": "Ace",
+      "order": 72,
+      "variants": [
+        {
+          "code": "BK-002",
+          "zh": "Ace",
+          "en": "Ace",
+          "image": "/assets/sports/basketball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BK-002"
+        }
+      ]
+    },
+    {
+      "code": "BK-003",
+      "series": "Basketball Starting Five",
+      "slug": "basketball",
+      "zh": "Chill",
+      "en": "Chill",
+      "order": 73,
+      "variants": [
+        {
+          "code": "BK-003",
+          "zh": "Chill",
+          "en": "Chill",
+          "image": "/assets/sports/basketball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BK-003"
+        }
+      ]
+    },
+    {
+      "code": "BK-004",
+      "series": "Basketball Starting Five",
+      "slug": "basketball",
+      "zh": "Brick",
+      "en": "Brick",
+      "order": 74,
+      "variants": [
+        {
+          "code": "BK-004",
+          "zh": "Brick",
+          "en": "Brick",
+          "image": "/assets/sports/basketball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BK-004"
+        }
+      ]
+    },
+    {
+      "code": "BK-005",
+      "series": "Basketball Starting Five",
+      "slug": "basketball",
+      "zh": "Tower",
+      "en": "Tower",
+      "order": 75,
+      "variants": [
+        {
+          "code": "BK-005",
+          "zh": "Tower",
+          "en": "Tower",
+          "image": "/assets/sports/basketball-dz-team.webp",
+          "page": "https://dongze.win/sports/#BK-005"
         }
       ]
     }
