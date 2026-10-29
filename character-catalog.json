@@ -1198,9 +1198,19 @@
           "zh": "阿準",
           "en": "A-Zhun",
           "image": "/assets/sports/baseball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BB-001"
+          "page": "https://dongze.win/sports/#BB-001",
+          "image_kind": "team_reference",
+          "portrait_status": "reference_found_revision_required"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": "01",
+        "role": "Pitcher",
+        "portrait_image": null,
+        "portrait_status": "reference_found_revision_required",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BB-001"
+      }
     },
     {
       "code": "BB-002",
@@ -1215,9 +1225,19 @@
           "zh": "大砲",
           "en": "Da-Pao",
           "image": "/assets/sports/baseball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BB-002"
+          "page": "https://dongze.win/sports/#BB-002",
+          "image_kind": "team_reference",
+          "portrait_status": "reference_found_revision_required"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": "99",
+        "role": "Power hitter",
+        "portrait_image": null,
+        "portrait_status": "reference_found_revision_required",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BB-002"
+      }
     },
     {
       "code": "BB-003",
@@ -1232,9 +1252,19 @@
           "zh": "阿捕",
           "en": "A-Bu",
           "image": "/assets/sports/baseball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BB-003"
+          "page": "https://dongze.win/sports/#BB-003",
+          "image_kind": "team_reference",
+          "portrait_status": "reference_found_revision_required"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": "02",
+        "role": "Catcher",
+        "portrait_image": null,
+        "portrait_status": "reference_found_revision_required",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BB-003"
+      }
     },
     {
       "code": "BB-004",
@@ -1249,9 +1279,19 @@
           "zh": "老包",
           "en": "Lao-Bao",
           "image": "/assets/sports/baseball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BB-004"
+          "page": "https://dongze.win/sports/#BB-004",
+          "image_kind": "team_reference",
+          "portrait_status": "reference_found_revision_required"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": "88",
+        "role": "Coach",
+        "portrait_image": null,
+        "portrait_status": "reference_found_revision_required",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BB-004"
+      }
     },
     {
       "code": "BB-005",
@@ -1266,9 +1306,19 @@
           "zh": "鐵面",
           "en": "Tie-Mian",
           "image": "/assets/sports/baseball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BB-005"
+          "page": "https://dongze.win/sports/#BB-005",
+          "image_kind": "team_reference",
+          "portrait_status": "reference_found_revision_required"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": null,
+        "role": "Umpire",
+        "portrait_image": null,
+        "portrait_status": "reference_found_revision_required",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BB-005"
+      }
     },
     {
       "code": "BB-006",
@@ -1283,9 +1333,19 @@
           "zh": "小晴",
           "en": "Xiao-Qing",
           "image": "/assets/sports/baseball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BB-006"
+          "page": "https://dongze.win/sports/#BB-006",
+          "image_kind": "team_reference",
+          "portrait_status": "reference_found_revision_required"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": "07",
+        "role": "Cheerleader",
+        "portrait_image": null,
+        "portrait_status": "reference_found_revision_required",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BB-006"
+      }
     },
     {
       "code": "BK-001",
@@ -1300,9 +1360,19 @@
           "zh": "Dash",
           "en": "Dash",
           "image": "/assets/sports/basketball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BK-001"
+          "page": "https://dongze.win/sports/#BK-001",
+          "image_kind": "team_reference",
+          "portrait_status": "reference_found_revision_required"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": "11",
+        "role": "Point guard · PG",
+        "portrait_image": null,
+        "portrait_status": "reference_found_revision_required",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BK-001"
+      }
     },
     {
       "code": "BK-002",
@@ -1317,9 +1387,19 @@
           "zh": "Ace",
           "en": "Ace",
           "image": "/assets/sports/basketball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BK-002"
+          "page": "https://dongze.win/sports/#BK-002",
+          "image_kind": "team_reference",
+          "portrait_status": "reference_found_revision_required"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": "23",
+        "role": "Shooting guard · SG",
+        "portrait_image": null,
+        "portrait_status": "reference_found_revision_required",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BK-002"
+      }
     },
     {
       "code": "BK-003",
@@ -1334,9 +1414,19 @@
           "zh": "Chill",
           "en": "Chill",
           "image": "/assets/sports/basketball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BK-003"
+          "page": "https://dongze.win/sports/#BK-003",
+          "image_kind": "team_reference",
+          "portrait_status": "not_found"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": "07",
+        "role": "Small forward · SF",
+        "portrait_image": null,
+        "portrait_status": "not_found",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BK-003"
+      }
     },
     {
       "code": "BK-004",
@@ -1351,9 +1441,19 @@
           "zh": "Brick",
           "en": "Brick",
           "image": "/assets/sports/basketball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BK-004"
+          "page": "https://dongze.win/sports/#BK-004",
+          "image_kind": "team_reference",
+          "portrait_status": "not_found"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": "34",
+        "role": "Power forward · PF",
+        "portrait_image": null,
+        "portrait_status": "not_found",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BK-004"
+      }
     },
     {
       "code": "BK-005",
@@ -1368,9 +1468,19 @@
           "zh": "Tower",
           "en": "Tower",
           "image": "/assets/sports/basketball-dz-team.webp",
-          "page": "https://dongze.win/sports/#BK-005"
+          "page": "https://dongze.win/sports/#BK-005",
+          "image_kind": "team_reference",
+          "portrait_status": "not_found"
         }
-      ]
+      ],
+      "sports_asset": {
+        "jersey_number": "55",
+        "role": "Center · C",
+        "portrait_image": null,
+        "portrait_status": "not_found",
+        "card_status": "incomplete",
+        "specification": "/sports/portrait-manifest.json#BK-005"
+      }
     }
   ]
 }
