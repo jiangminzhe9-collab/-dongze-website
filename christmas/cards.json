@@ -1,0 +1,122 @@
+[
+  {
+    "id": "card-01",
+    "number": 1,
+    "zh": "聖誕快樂",
+    "en": "Merry Christmas",
+    "scene": "聖誕禮物",
+    "scene_en": "A Christmas gift",
+    "image": "/assets/christmas-2026/aze-christmas-01.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-01-preview.webp"
+  },
+  {
+    "id": "card-02",
+    "number": 2,
+    "zh": "平安喜樂",
+    "en": "Peace & Joy",
+    "scene": "雪夜提燈",
+    "scene_en": "A lantern in the snow",
+    "image": "/assets/christmas-2026/aze-christmas-02.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-02-preview.webp"
+  },
+  {
+    "id": "card-03",
+    "number": 3,
+    "zh": "心想事成",
+    "en": "Wishes Come True",
+    "scene": "捧起星光",
+    "scene_en": "A little starlight",
+    "image": "/assets/christmas-2026/aze-christmas-03.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-03-preview.webp"
+  },
+  {
+    "id": "card-04",
+    "number": 4,
+    "zh": "幸福滿屋",
+    "en": "A Home Full of Happiness",
+    "scene": "壁爐時光",
+    "scene_en": "By the fireplace",
+    "image": "/assets/christmas-2026/aze-christmas-04.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-04-preview.webp"
+  },
+  {
+    "id": "card-05",
+    "number": 5,
+    "zh": "好運常在",
+    "en": "Good Luck Always",
+    "scene": "花圈祝福",
+    "scene_en": "A festive wreath",
+    "image": "/assets/christmas-2026/aze-christmas-05.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-05-preview.webp"
+  },
+  {
+    "id": "card-06",
+    "number": 6,
+    "zh": "溫暖相伴",
+    "en": "Warmth & Togetherness",
+    "scene": "暖心熱可可",
+    "scene_en": "A cup of cocoa",
+    "image": "/assets/christmas-2026/aze-christmas-06.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-06-preview.webp"
+  },
+  {
+    "id": "card-07",
+    "number": 7,
+    "zh": "願望成真",
+    "en": "Make a Wish",
+    "scene": "聖誕水晶球",
+    "scene_en": "A Christmas snow globe",
+    "image": "/assets/christmas-2026/aze-christmas-07.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-07-preview.webp"
+  },
+  {
+    "id": "card-08",
+    "number": 8,
+    "zh": "甜蜜聖誕",
+    "en": "A Sweet Christmas",
+    "scene": "薑餅小屋",
+    "scene_en": "The gingerbread bakery",
+    "image": "/assets/christmas-2026/aze-christmas-08.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-08-preview.webp"
+  },
+  {
+    "id": "card-09",
+    "number": 9,
+    "zh": "感謝有你",
+    "en": "Thankful for You",
+    "scene": "送你一份心意",
+    "scene_en": "A gift from the heart",
+    "image": "/assets/christmas-2026/aze-christmas-09.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-09-preview.webp"
+  },
+  {
+    "id": "card-10",
+    "number": 10,
+    "zh": "喜樂滿心",
+    "en": "A Heart Full of Joy",
+    "scene": "聖誕金鈴",
+    "scene_en": "Christmas bells",
+    "image": "/assets/christmas-2026/aze-christmas-10.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-10-preview.webp"
+  },
+  {
+    "id": "card-11",
+    "number": 11,
+    "zh": "祝福滿滿",
+    "en": "Blessings All Around",
+    "scene": "雪橇送祝福",
+    "scene_en": "A sleigh full of wishes",
+    "image": "/assets/christmas-2026/aze-christmas-11.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-11-preview.webp"
+  },
+  {
+    "id": "card-12",
+    "number": 12,
+    "zh": "聖誕團圓",
+    "en": "Home for Christmas",
+    "scene": "等你回家",
+    "scene_en": "Welcome home",
+    "image": "/assets/christmas-2026/aze-christmas-12.webp",
+    "preview": "/assets/christmas-2026/aze-christmas-12-preview.webp"
+  }
+]
