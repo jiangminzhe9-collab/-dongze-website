@@ -8,6 +8,8 @@
       !['dongze.win', 'www.dongze.win', 'paperbagcrew.com', 'www.paperbagcrew.com'].includes(location.hostname)) return;
   const measurementId = 'G-7XNY9JBP6C';
   const siteName = location.hostname.includes('paperbagcrew') ? 'Paperbag Crew' : 'DONGZE';
+  const isStickerPage = path => /^\/line-stickers(?:\/index\.html|\/)?$/.test(path);
+  const sourcePage = /^\/(?:index\.html)?$/.test(location.pathname) ? 'home' : isStickerPage(location.pathname) ? 'line_stickers' : 'other';
   const language = () => params.get('lang') === 'en' || document.documentElement.lang.startsWith('en') ? 'en' : 'zh-Hant';
   window.dataLayer = window.dataLayer || [];
   window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
@@ -27,9 +29,12 @@
   document.addEventListener('click', event => {
     const link = event.target.closest && event.target.closest('a[href]');
     if (!link) return;
-    const target = new URL(link.href, location.href);
+    let target;
+    try { target = new URL(link.href, location.href); } catch (_) { return; }
+    if (!['http:', 'https:'].includes(target.protocol) || target.username || target.password) return;
     let eventName;
-    const detail = { site_name: siteName, content_language: document.documentElement.lang || language(), transport_type: 'beacon' };
+    // Only fixed labels and numeric product IDs; never link text or full URLs.
+    const detail = { site_name: siteName, content_language: document.documentElement.lang || language(), transport_type: 'beacon', source_page: sourcePage };
     const stickerMatch = target.hostname === 'line.me'
       ? target.pathname.match(/^\/S\/sticker\/(\d+)\/?$/)
       : target.hostname === 'store.line.me'
@@ -40,8 +45,16 @@
       detail.sticker_id = stickerMatch[1];
     } else if (target.hostname === 'paypal.com' || target.hostname.endsWith('.paypal.com')) {
       eventName = 'support_click';
-    } else if (target.hostname === 'dongze.win' && target.hash === '#line-stickers') {
+    } else if (['dongze.win', 'www.dongze.win'].includes(target.hostname) &&
+        (isStickerPage(target.pathname) || target.hash === '#line-stickers')) {
       eventName = 'sticker_preview_click';
+      // Keep historical anchor events separate from entries to the catalog.
+      detail.destination_type = isStickerPage(target.pathname) && link.getAttribute('href').charAt(0) !== '#' ? 'catalog' : 'legacy_anchor';
+      detail.entry_location = link.closest('#line-christmas-feature') ? 'christmas_feature'
+        : link.closest('header nav') ? 'navigation'
+        : link.closest('.hero') ? 'hero'
+        : link.closest('#comic') ? 'comic'
+        : link.closest('#line-stickers') ? 'sticker_section' : 'other';
     }
     if (eventName) window.gtag('event', eventName, detail);
   });
