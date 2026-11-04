@@ -43,8 +43,6 @@
     if (stickerMatch) {
       eventName = 'sticker_store_click';
       detail.sticker_id = stickerMatch[1];
-    } else if (target.hostname === 'paypal.com' || target.hostname.endsWith('.paypal.com')) {
-      eventName = 'support_click';
     } else if (['dongze.win', 'www.dongze.win'].includes(target.hostname) &&
         (isStickerPage(target.pathname) || target.hash === '#line-stickers')) {
       eventName = 'sticker_preview_click';
