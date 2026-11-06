@@ -76,8 +76,16 @@
     const referrer = new URL(document.referrer);
     if (['http:', 'https:'].includes(referrer.protocol) && !referrer.username && !referrer.password) referrerOrigin = referrer.origin;
   } catch (_) {}
-  // Never forward query strings or auth fragments.
-  window.gtag('config', measurementId, { site_name: siteName, content_language: language(), page_location: location.origin + location.pathname, page_referrer: referrerOrigin, allow_google_signals: false, allow_ad_personalization_signals: false });
+  // Only forward allowlisted, bounded campaign tags. Never forward unrelated query
+  // parameters, auth tokens, personal data or URL fragments to analytics.
+  const campaignParams = new URLSearchParams();
+  for (const key of ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_id']) {
+    const value = params.get(key);
+    if (value && /^[A-Za-z0-9._~-]{1,100}$/.test(value)) campaignParams.set(key, value);
+  }
+  const safeQuery = campaignParams.toString();
+  const safePageLocation = location.origin + location.pathname + (safeQuery ? '?' + safeQuery : '');
+  window.gtag('config', measurementId, { site_name: siteName, content_language: language(), page_location: safePageLocation, page_referrer: referrerOrigin, allow_google_signals: false, allow_ad_personalization_signals: false });
   const tag = document.createElement('script');
   tag.async = true;
   tag.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
