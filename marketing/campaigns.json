@@ -1,0 +1,146 @@
+{
+  "version": 1,
+  "updated_at": "2026-11-07",
+  "publication_status": "draft_only_not_published",
+  "note": "Products grounded only in website source code as of 2026-11-07; live domain and LINE Store could not be independently loaded. No claims of actual sales, sold quantities, or guaranteed availability.",
+  "source": "https://github.com/jiangminzhe9-collab/-dongze-website/blob/main/line-stickers/index.html",
+  "landing_base": "https://dongze.win/line-stickers/",
+  "brands": {
+    "DONGZE": {
+      "market": "TW",
+      "platforms": [
+        "Threads",
+        "Facebook"
+      ],
+      "conversion": "LINE sticker store click or actual confirmed sales"
+    },
+    "PAPERBAGCREW": {
+      "market": "GLOBAL",
+      "platforms": [
+        "Instagram",
+        "YouTube Shorts",
+        "TikTok",
+        "Pinterest"
+      ],
+      "conversion": "site qualified visit",
+      "note": "English-only brand discovery; do not promote LINE or claim that checkout/downloads work"
+    }
+  },
+  "products": [
+    {
+      "code": "STUDENT_SLANG",
+      "sticker_id": "37800181",
+      "name_zh": "紙袋同學：學生流行語",
+      "priority": "P1",
+      "format_claim": "官網列為新上架；未驗證貼圖數與動態屬性",
+      "store": "https://line.me/S/sticker/37800181/?lang=zh-Hant",
+      "campaign": "2026q4_student_slang",
+      "caption_zh": "班群聊到詞窮？讓戴黑框眼鏡的紙袋同學接話！📚\n《紙袋同學：學生流行語》把日常聊天、吐槽和揪團變得更有戲。\n來看這組新角色 →",
+      "anchor": "#line-pack-37800181",
+      "site_code_status": "listed_on_dongze_main",
+      "store_verified_independently": false
+    },
+    {
+      "code": "MUSCLE_TW_TALK",
+      "sticker_id": "37799627",
+      "name_zh": "紙袋肌肉男：台味開講",
+      "priority": "P1",
+      "format_claim": "官網標示 24 張繁體中文動態貼圖",
+      "store": "https://line.me/S/sticker/37799627/?lang=zh-Hant",
+      "campaign": "2026q4_muscle_taiwan_talk",
+      "caption_zh": "「半糖去冰」也可以很有戲！💪\n《紙袋肌肉男：台味開講》24 張繁體中文動態 LINE 貼圖，吃飯、互虧、揪朋友都用得到。\n看看台味新系列 →",
+      "anchor": "#line-pack-37799627",
+      "site_code_status": "listed_on_dongze_main",
+      "store_verified_independently": false
+    },
+    {
+      "code": "MUSCLE_REACTIONS",
+      "sticker_id": "37797877",
+      "name_zh": "紙袋肌肉男：一秒變臉",
+      "priority": "P1",
+      "format_claim": "官網標示 24 張無字動態貼圖",
+      "store": "https://line.me/S/sticker/37797877/?lang=zh-Hant",
+      "campaign": "2026q4_muscle_reactions",
+      "caption_zh": "一秒從驚嚇切換成淡定，根本替聊天加上表情特效。😤\n《紙袋肌肉男：一秒變臉》24 張無字動態 LINE 貼圖，不用打字也能表達心情。\n看看無字新系列 →",
+      "anchor": "#line-pack-37797877",
+      "site_code_status": "listed_on_dongze_main",
+      "store_verified_independently": false
+    },
+    {
+      "code": "TAIKE_MOTION",
+      "sticker_id": "37736423",
+      "name_zh": "紙袋台客：有義氣，動起來",
+      "priority": "P1",
+      "format_claim": "官網標示 24 款無聲動態貼圖",
+      "store": "https://line.me/S/sticker/37736423/?lang=zh-Hant",
+      "campaign": "2026q4_taike_motion",
+      "caption_zh": "有義氣不只用說的，直接動給你看！🤜🤛\n《紙袋台客：有義氣，動起來》24 款無聲動態 LINE 貼圖，拍胸挺你、揮手先閃，聊天更有戲。\n來看原創系列 →",
+      "anchor": "#line-pack-37736423",
+      "site_code_status": "listed_on_dongze_main",
+      "store_verified_independently": false
+    },
+    {
+      "code": "BLACKCAT_BANTER",
+      "sticker_id": "37720998",
+      "name_zh": "賤賤黑貓：上班嘴很壞",
+      "priority": "P2",
+      "format_claim": "官網標示 24 張；未查明動畫規格",
+      "store": "https://store.line.me/stickershop/product/37720998/zh-Hant",
+      "campaign": "2026q4_blackcat_banter",
+      "caption_zh": "主管再畫餅？黑貓先幫你翻白眼。🐈‍⬛\n《賤賤黑貓：上班嘴很壞》24 張職場吐槽 LINE 貼圖，會議、加班、提加薪都有梗。\n來看看職場系列 →",
+      "anchor": "#line-pack-37720998",
+      "site_code_status": "listed_on_dongze_main",
+      "store_verified_independently": false
+    },
+    {
+      "code": "CATS_XMAS",
+      "sticker_id": "37685777",
+      "name_zh": "紙袋貓的聖誕日常",
+      "priority": "P2",
+      "format_claim": "官網標示 24 張；不宣稱阿澤單角",
+      "store": "https://store.line.me/stickershop/product/37685777/zh-Hant",
+      "campaign": "2026q4_paperbag_cats_xmas",
+      "caption_zh": "交換禮物、聚餐、耍廢，聖誕節都用得到。🎄\n《紙袋貓的聖誕日常》24 張 LINE 貼圖，替聊天加點節慶幽默。\n看看聖誕系列 →",
+      "anchor": "#line-pack-37685777",
+      "site_code_status": "listed_on_dongze_main",
+      "store_verified_independently": false
+    },
+    {
+      "code": "CATS_NEWYEAR",
+      "sticker_id": "37685785",
+      "name_zh": "紙袋貓的跨年開工",
+      "priority": "P3",
+      "format_claim": "官網標示 24 張；不得宣稱音效",
+      "store": "https://store.line.me/stickershop/product/37685785/zh-Hant",
+      "campaign": "2026q4_paperbag_cats_newyear",
+      "caption_zh": "從跨年倒數到開工開會，紙袋貓比你更懂這種心情。✨\n《紙袋貓的跨年開工》24 張 LINE 貼圖，替忙碌的日子加一點幽默。\n看商品系列 →",
+      "anchor": "#line-pack-37685785",
+      "site_code_status": "listed_on_dongze_main",
+      "store_verified_independently": false
+    },
+    {
+      "code": "OFFICE_CAT",
+      "sticker_id": "37622412",
+      "name_zh": "厭世上班貓：日常厭世篇",
+      "priority": "P3",
+      "format_claim": "官網列為已販售 24 張",
+      "store": "https://line.me/S/sticker/37622412/?lang=zh-Hant",
+      "campaign": "2026q4_office_cat",
+      "caption_zh": "不想開口的職場心聲，讓厭世上班貓代替你。😼\n《厭世上班貓：日常厭世篇》24 張 LINE 貼圖，從周一到下班天天都用得到。\n來看貼圖 →",
+      "anchor": "#line-pack-37622412",
+      "site_code_status": "listed_on_dongze_main",
+      "store_verified_independently": false
+    }
+  ],
+  "pbc_discovery": {
+    "english_caption": "Original paperbag characters meet art, skate and digital street culture. Step into Paperbagcrew World.",
+    "landing": "https://paperbagcrew.com/",
+    "product_checkout_verified": false,
+    "do_not_use": [
+      "LINE sticker sale",
+      "buy now",
+      "instant download",
+      "unlicensed third-party logos"
+    ]
+  }
+}
