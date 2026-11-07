@@ -20,6 +20,7 @@
       'I have reviewed the product specifications and personal-use license information (version '+VERSION+').',
       'I understand checkout is not open. This is an enquiry, not a paid order; no download license has been issued.',
       'Website terms provided for review (2026-11-07): https://dongze.win/legal/en/',
+      'Disclaimer: https://dongze.win/legal/en/#disclaimer',
       'Please include the applicable terms, final amount and payment method in the quote for me to confirm before ordering.'
     ]:[
       '東澤文創您好：','','我想登記訂購以下數位卡牌商品。',
@@ -28,6 +29,7 @@
       '我已閱讀商品規格與個人使用授權說明（版本 '+VERSION+'）。',
       '我了解目前尚未開放付款，這是訂購登記，並非已付款訂單，也尚未取得下載授權。',
       '供審閱的網站使用條款（2026-11-07）：https://dongze.win/legal/',
+      '免責聲明：https://dongze.win/legal/#disclaimer',
       '請在報價中提供適用條款、最終金額與付款方式，供我在正式訂購前確認。'
     ];
     return {subject,body:body.join('\n'),emailHref:'mailto:dongze.ltd@gmail.com?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body.join('\n'))};
