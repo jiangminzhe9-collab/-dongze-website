@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updated_at": "2026-11-07",
+  "version": 2,
+  "updated_at": "2026-11-08",
   "publication_status": "draft_only_not_published",
   "note": "Products grounded only in website source code as of 2026-11-07; live domain and LINE Store could not be independently loaded. No claims of actual sales, sold quantities, or guaranteed availability.",
   "source": "https://github.com/jiangminzhe9-collab/-dongze-website/blob/main/line-stickers/index.html",
@@ -141,6 +141,43 @@
       "buy now",
       "instant download",
       "unlicensed third-party logos"
-    ]
-  }
+    ],
+    "content_pillars": [
+      {
+        "id": "ART_DISTRICT",
+        "topic": "Explore Paperbagcrew World",
+        "visual_source": "IMG_3897.webp (own website asset; confirm publishing rights and export original image)",
+        "base_caption": "Four corners. One paperbag world. Explore original characters, art, street style and skate culture across the Paperbagcrew creative district.",
+        "hashtags": "#Paperbagcrew #OriginalCharacters #StreetCulture",
+        "asset_required": "Visual asset or original short video; not yet packaged or approved",
+        "action": "Explore the creative district, link in profile"
+      },
+      {
+        "id": "DZ_STUDIO",
+        "topic": "Meet DZ Studio",
+        "visual_source": "IMG_3900.webp (website source)",
+        "base_caption": "Welcome to DZ Studio, a creative corner for original character design and digital art. Take a look inside Paperbagcrew World.",
+        "hashtags": "#Paperbagcrew #CharacterDesign #DigitalArt",
+        "asset_required": "Original image or short clip required; current website image not exported for posting",
+        "action": "Explore the studio, link in profile"
+      },
+      {
+        "id": "SKATE_PARK",
+        "topic": "Enter the Skate Park",
+        "visual_source": "IMG_3899.webp (website source)",
+        "base_caption": "Skateboarding, graffiti and character culture meet inside Paperbagcrew World. Drop by the Skate Park and explore the scene.",
+        "hashtags": "#Paperbagcrew #SkateCulture #StreetArt",
+        "asset_required": "Original image or short clip required; not yet published",
+        "action": "Explore the district, link in profile"
+      }
+    ],
+    "platforms": [
+      "Instagram",
+      "TikTok",
+      "YouTube Shorts",
+      "Pinterest"
+    ],
+    "publishing_status": "COPY_ONLY_UNPUBLISHED_REQUIRES_MEDIA_AND_ACCOUNT_OAUTH"
+  },
+  "audit_note_20261108": "Checked main product catalog: no new featured sticker IDs beyond the eight 2026-11-07 campaign products; PR #3 GA4 UTM attribution still draft; PR #4 remains draft and unpublished. Company Gmail 30-day platform sender query had no matching messages (not proof of account absence)."
 }
