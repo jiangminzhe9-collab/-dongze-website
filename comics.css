@@ -6,8 +6,8 @@
 .comic-reader{min-width:0}.comic-reader .comic-feature{width:min(100%,660px)}
 .comic-reader .comic-artwork img{width:100%;max-height:none;height:auto}
 .comic-reader .comic-artwork{padding:8px}.comic-reader [hidden]{display:none}
-.comic-language-note{font-size:12px;line-height:1.7;color:#766958;margin-top:16px}
-@media(max-width:760px){.comic-section{grid-template-columns:1fr}.comic-section .section-heading{width:100%;max-width:none}.comic-menu{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;text-align:left}.comic-menu a{font-size:13px;padding:12px}.comic-reader .comic-feature{width:100%}.comic-reader .comic-artwork{padding:4px}.comic-reader .comic-feature figcaption{flex-wrap:wrap}}
+.comic-language-note{font-size:14px;line-height:1.7;color:#766958;margin-top:16px}
+@media(max-width:760px){.comic-section{grid-template-columns:1fr}.comic-section .section-heading{width:100%;max-width:none}.comic-menu{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;text-align:left}.comic-menu a{font-size:14px;padding:12px}.comic-reader .comic-feature{width:100%}.comic-reader .comic-artwork{padding:4px}.comic-reader .comic-feature figcaption{flex-wrap:wrap}}
 
 /* Comic episode links must not inherit the header's mobile hiding rule. */
 .comic-menu{margin-left:0}
@@ -20,8 +20,8 @@
 .comic-latest-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
 .comic-story-card{display:block;min-width:0;background:#fff;border:1px solid #d2d0ca;transition:transform .2s}
 .comic-story-card:hover{transform:translateY(-3px)}.comic-story-card>img{display:block;width:100%;height:auto;object-fit:contain}
-.comic-story-card>div{padding:20px}.comic-series-tag{font-size:11px;letter-spacing:.03em;color:#9e321d}.comic-story-card h3{font-size:21px;line-height:1.5;margin:12px 0 16px}.comic-read{font-size:13px;border-bottom:1px solid;padding-bottom:4px}
-@media(max-width:760px){.comic-latest .section-heading{display:block}.comic-all{margin-top:20px}.comic-latest-grid{grid-template-columns:1fr;gap:24px}.comic-story-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center}.comic-story-card>div{padding:16px}.comic-story-card h3{font-size:18px}.comic-latest-intro{font-size:14px}.comic-series-tag{font-size:10px}}
+.comic-story-card>div{padding:20px}.comic-series-tag{font-size:14px;letter-spacing:.03em;color:#9e321d}.comic-story-card h3{font-size:21px;line-height:1.5;margin:12px 0 16px}.comic-read{font-size:14px;border-bottom:1px solid;padding-bottom:4px}
+@media(max-width:760px){.comic-latest .section-heading{display:block}.comic-all{margin-top:20px}.comic-latest-grid{grid-template-columns:1fr;gap:24px}.comic-story-card{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center}.comic-story-card>div{padding:16px}.comic-story-card h3{font-size:18px}.comic-latest-intro{font-size:14px}.comic-series-tag{font-size:14px}}
 @media(prefers-reduced-motion:reduce){.comic-story-card{transition:none}.comic-story-card:hover{transform:none}}
 
 
